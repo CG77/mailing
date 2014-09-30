@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>eZ Mailing</name>
+        <version>//autogen//</version>
+        <copyright>//autogen//</copyright>
+        <license>//autogen//</license>
+        <info_url>http://ez.no/market/eZ-Mailing</info_url>
+    </metadata>
+    <dependencies>
+        <extends>
+            <extension name="ezjscore" />
+        </extends>
+    </dependencies>
+</software>

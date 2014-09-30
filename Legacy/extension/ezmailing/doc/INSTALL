@@ -1,0 +1,131 @@
+###
+#
+# @author //autogen//
+# @copyright //autogen//
+# @license //autogen//
+# @version //autogen//
+#
+##
+
+=================================
+eZ Mailing extension Installation
+=================================
+
+**Author**: Sébastien Morel - Novactive
+
+**Last Changes** :  
+**More informations** : s.morel@novactive.com, contact@novactive.com, morel.seb@gmail.com
+
+
+Requirements
+============
+
+* eZ Publish 4.5+
+* PHP 5.3+
+* MySQL 5+
+
+
+Installation
+============
+
+ 1. Unpack/unzip
+
+    Unpack the downloaded zip package into the 'extension' directory of your
+    eZ Publish installation.
+
+ 2. Activate extension
+
+    Activate the extension by using the admin interface ('Setup' -> 'Extensions') or by
+    prepending smarttags to 'ActiveExtensions[]' in 'settings/override/site.ini.append.php':
+
+    [ExtensionSettings]
+    ActiveExtensions[]=ezmailing
+
+ 3. Regenerate autoload array
+
+    Run the following command from your eZ Publish root folder
+
+    php bin/php/ezpgenerateautoloads.php -e
+
+ 4. Configuration
+ 
+    Configure your sendmail method in 'settings/override/site.ini.append.php' with :
+    
+    CampaignTransport=sendmail ( or SMTP, file )
+    
+    Override ezmailing.ini and set [UserRegistration] and [MailingSettings] with yours desired values like 'TopNodes', 'DesignSiteAccess', 'TestEmails'.
+    
+ 5. Clear caches
+
+    Clear INI and template caches (from the admin 'Setup' tab or commandline).
+    
+ 6. Set up cronjobs
+    
+    Update crontab under the current user.
+    Edit crontab with the command
+    
+    crontab -e
+    
+    Insert these lines and remplace argument 'ABSOLUTE_PATH_WWW' :
+    
+    */15   *    * * *   cd {ABSOLUTE_PATH_WWW} && php runcronjobs.php sendmailing
+    */10   *    * * *   cd {ABSOLUTE_PATH_WWW} && php runcronjobs.php cleanupmailing
+    */11   *    * * *   cd {ABSOLUTE_PATH_WWW} && php runcronjobs.php frequent
+    */15   *    * * *   cd {ABSOLUTE_PATH_WWW} && php extension/ezmailing/bin/php/import_user.php --process=3 --limit=200
+
+ 7. Mysql
+
+    Add a table in the database used by your eZ Publish instance. You can do so as follows
+   ( from eZ Publish's root directory ), in the case you are using MySQL:
+
+   $> mysql -u <user> -p <database_name> < extension/ezmailing/sql/mysql/schema.sql
+
+   The procedure is very similar in case you are using another RDMS. You may want to have a look at the
+   sql/oracle and sql/postgresql for Oracle and PostgreSQL databases respectively.
+   Please refer to the documentation reference for your DBMS if you are experiencing issues.
+
+
+Optionnal
+=========
+
+ 8. Automated Campaign creation
+
+    Declare your new handler in ezmailing.ini
+
+    [AutomatedSettings]
+    ExtensionDirectories[]={YOUR_EXTENSION_NAME}
+
+    Create your handler in /extension/{YOUR_EXTENSION_NAME}/autocampaign/{YOUR_EXTENSION_NAME}Handler.php
+
+    This class must be a class declared like this :
+
+    <?php
+
+    use Novactive\eZPublish\Extension\eZMailing\Core\Models\MailingList;
+    use Novactive\eZPublish\Extension\eZMailing\Core\Models\Campaign;
+    use Novactive\eZPublish\Extension\eZMailing\Core\Utils\AutomatedHandler;
+
+    class {YOUR_EXTENSION_NAME}AutoCampaignHandler extends AutomatedHandler {
+
+        /**
+         * Get Campaign
+         * @return array
+         */
+        public function getCampaigns() {
+            // your own code
+        }
+    }
+    ?>
+
+    Run the following command from your eZ Publish root folder
+
+    php bin/php/ezpgenerateautoloads.php -e
+
+    Update crontab under the current user.
+    Edit crontab with the command
+
+    crontab -e
+
+    Insert these lines and remplace argument 'ABSOLUTE_PATH_WWW' :
+
+    */15   *    * * *   cd {ABSOLUTE_PATH_WWW} && php runcronjobs.php automated

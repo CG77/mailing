@@ -1,0 +1,49 @@
+###
+#
+# @author //autogen//
+# @copyright //autogen//
+# @license //autogen//
+# @version //autogen//
+#
+##
+
+=========================
+eZ Mailing extension News
+=========================
+
+ Full subscriber management
+    - Full personal information
+    - Registration form
+    - Control ID for subscribe / unsubscribe
+    - Subscriber management
+ 
+ Creating eMailing/Newsletter management
+    - Create
+    - Test compatibility
+    
+ Campaign management
+    - Dashboard
+    - Mailingslists, date, frequency of sending
+    - create/update/delete
+    - Scheduled sending, first send and recurrency
+
+ Multilingue
+    - Mailingslist filters
+    
+ Routing
+    - Interface management
+    - Campaigns state
+    - Scheduled sending
+    
+ Native routing eZ Publish
+    - Sending method : SMTP / Sendmail
+    - Statistical hearing
+    - Tracking opened mails/clicked links
+    - Graphical representation
+
+
+1.0
+================
+
+* Initial release
+

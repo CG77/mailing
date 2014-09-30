@@ -1,0 +1,2469 @@
+@CHARSET "UTF-8";
+.hidden {display: none;}
+.required {
+    color: #C11B17;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+	}
+#ezmailing {font-size: 12px;}
+#ezmailing .content-dashboard .box-header {
+    background:none;
+    padding-top:5px;
+}
+
+#ezmailing .content-dashboard .box-header h1 {
+    visibility:visible;
+}
+
+
+#ezmailing .content-dashboard .box-header h1 span {
+    float:right;
+}
+
+
+#ezmailing table tr.disabled {
+    background:#cecece;
+}
+
+#ezmailing table tr.todo {
+    background:#BDDEEF;
+}
+
+#ezmailing table tr.done {
+    background:#98EA96;
+}
+
+#ezmailing table tr.current td {
+    font-weight:bold;
+}
+
+
+#ezmailing .ezmailing-controls-tabs div.tab-content {
+    height:32em;
+}
+
+#ezmailing .ezmailing-controls-tabs .tab-content {
+    text-align: center;
+}
+
+
+.ezmailingregistration ul {
+    list-style-type: none;
+}
+
+/*Menu gauche*/
+#ezmailing_logo {text-align: center;}
+#ezmailing_left_menu ul li {
+    border-bottom: 1px solid #e7e7e7;
+    list-style-type: none;
+    margin: 0;
+    position: relative;
+    }
+#ezmailing_left_menu ul li:last-child {border: 0 none;}
+    #ezmailing_left_menu ul li a {
+        color: #313131;
+        display: block;
+        padding: 10px 0 10px 18px;
+        }
+    #ezmailing_left_menu ul li.current a,
+    #ezmailing_left_menu ul li a:hover {
+        background: #f5f5f5;
+        font-weight: normal;
+        text-decoration: none;
+        }
+        #ezmailing_left_menu ul li a img {
+            left: 18px;
+			position: absolute;
+            }
+        #ezmailing_left_menu ul li a span {
+            display: inline-block;
+            height: 16px;
+            line-height: 1em;
+            padding: 8px 0 8px 46px;
+            }
+    #ezmailing_left_menu ul li ul {display: none;}
+    #ezmailing_left_menu ul li ul.active {display: block;}
+/*Content*/
+.clear {clear: both;}
+#ezmailing_container {
+    font-family: arial;
+    font-size: 12px;
+    }
+    
+        #ezmailing_header {
+            background:url("../images/bg/bg_header_compagnie.png") no-repeat #2f3742 right top;
+            border-radius: 4px 4px 4px 4px; 
+            -moz-border-radius: 4px 4px 4px 4px; 
+            -webkit-border-radius: 4px 4px 4px 4px;
+            color: #fff;
+            margin-bottom: 50px;
+            padding: 15px 30px 20px 30px;
+            }
+        #ezmailing_header.registrations_list_header {background-image:url("../images/bg/bg_header_registrations.png");}
+        #ezmailing_header.import_header {
+			background-image:url("../images/bg/bg_header_import.png");
+			padding: 10px 30px 20px 30px;
+			}
+        #ezmailing #ezmailing_header.mailing_lists_header {
+			background-image:url("../images/bg/bg_header_mailinglists.png");
+			background-position: right top;
+			}
+		#ezmailing_header.dashboard_header {
+			background-image:url("../images/bg/bg_header_dashboard.png");
+			background-position: right top;
+			}
+		#ezmailing_header.statistics_header {
+			background-image:url("../images/bg/bg_header_statistics.png");
+			background-position: right top;
+			margin-bottom: 30px;
+			}
+		#ezmailing_header.send,
+		#ezmailing_header.view {
+			background-position: left top;
+			padding-bottom: 0;
+			}
+         #ezmailing_header.edit {background-position: left top;}
+         #ezmailing_header.user_header {
+			background-image: url("../images/bg/bg_header_user.png");
+			background-position: right top;
+			}
+			#ezmailing_header_status {
+				float: right;
+				margin: 25px 0 0 10px;
+				width: 280px\9;
+				}
+			#ezmailing_header_status div {
+				color: #B6B6B6;
+				font-size: 1.094em;
+				margin: 0;
+				}
+				#ezmailing_header_status div img {float: right;}
+				#ezmailing_header_status div p {
+					float: right;
+					font-size: 1em;
+					line-height: 1.5em;
+					margin: 17px 0 0 10px;
+					}
+					#ezmailing_header_status div#ezmailing_header_draft_status {color: #a7a7a7;}
+					#ezmailing_header_status div#ezmailing_header_tested_status {color: #4a9fff;}
+					#ezmailing_header_status div#ezmailing_header_confirmed_status {color: #a336ff;}
+					#ezmailing_header_status div#ezmailing_header_waiting_status {color: #E46809;}
+					#ezmailing_header_status div#ezmailing_header_sending_status {color: #61E4F0;}
+					#ezmailing_header_status div#ezmailing_header_sent_status {color: #76da00;}
+					#ezmailing_header_status div#ezmailing_header_success_status {color: #76da00;}
+					#ezmailing_header_status div#ezmailing_header_deleted_status {color: #a60000;}
+					#ezmailing_header_status div#ezmailing_header_cancelled_status {color: #000;}
+			#ezmailing_header h1 {
+                font-family: arial, Sans-Serif;
+                font-size: 4.166em;
+                font-weight: normal;
+                line-height: 1em;
+                margin: 0 0 10px 0;
+                }
+			#ezmailing_header.import_header h1,
+			#ezmailing_header.dashboard_header h1,
+			#ezmailing_header.statistics_header h1 {margin: 0;}
+                
+            #ezmailing_header p {
+                font-size: 1.166em;
+                line-height: 1em;
+                }
+                
+            #ezmailing_header button,
+            #ezmailing_header input[type="submit"] {
+                background: #EB8924;
+                background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EB8924), to(#E26208));
+                background-image: -moz-linear-gradient(top,  #EB8924,  #E26208);
+                background-image: -ms-linear-gradient(top,  #EB8924,  #E26208);
+                background-image: -o-linear-gradient(top,  #EB8924,  #E26208);
+                background-image: linear-gradient(top,  #EB8924,  #E26208);
+                border: 0 none;
+                border-radius: 4px 4px 4px 4px; 
+                -moz-border-radius: 4px 4px 4px 4px; 
+                -webkit-border-radius: 4px 4px 4px 4px;
+                color: #FFFFFF;
+                cursor: pointer;
+                display: block;
+                float: right;
+                font-family: Arial,Helvetica,sans-serif;
+                font-size: 1.5em;
+                margin-left: 40px;
+                padding: 15px 25px;
+                position: relative;
+                text-decoration: none;
+                }
+			.view #ezmailing_header_status button,
+            .view #ezmailing_header_status input[type="submit"]{margin: 12px 0 0 0;}
+			
+			#ezmailing_header #ezmailing_header_update {
+				color: #A7A7A7;
+				font-size: 1.094em;
+				font-style: italic;
+				}
+				
+			#ezmailing_header #ezmailing_header_update.ezmailing_header_update_tooltip {
+				display: inline-block;
+				position: relative;
+				}
+				
+				#ezmailing_header #ezmailing_header_update.ezmailing_header_update_tooltip a {					
+				    display: inline-block;
+				    margin-left: 5px;
+				    position: relative;
+				    	bottom: -7px;
+					}
+					
+					#ezmailing_header #ezmailing_header_update.ezmailing_header_update_tooltip .ezmailing_tooltip {top: -49px;}
+					
+			#ezmailing_header_details {
+				background: #5e656f;
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5e656f), to(#42474E));
+				background-image: -moz-linear-gradient(top,  #5e656f,  #42474E);
+				background-image: -ms-linear-gradient(top,  #5e656f,  #42474E);
+				background-image: -o-linear-gradient(top,  #5e656f,  #42474E);
+				background-image: linear-gradient(top,  #5e656f,  #42474E);
+				border: 0 none;
+				border-radius: 4px 4px 4px 4px; 
+				-moz-border-radius: 4px 4px 4px 4px; 
+				-webkit-border-radius: 4px 4px 4px 4px;
+				display: none;
+				font-size: 1.094em;
+				margin-top: 20px;
+				padding: 10px 10px 0 10px;
+				}
+            .send #ezmailing_header_details.is_sent,
+            .mailing_lists_header #ezmailing_header_details,
+			.user_header  #ezmailing_header_details {
+				background-color: #E46809;
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5e656f), to(#E46809));
+				background-image: -moz-linear-gradient(top,  #BF5708, #E46809);
+				background-image: -ms-linear-gradient(top,  #BF5708,  #E46809);
+				background-image: -o-linear-gradient(top,  #BF5708,  #E46809);
+				background-image: linear-gradient(top,  #BF5708,  #E46809);
+				}
+				#ezmailing_header_details #left_details {
+					float: left;
+					margin-right: 1%;
+					width: 63%;
+					}
+				#ezmailing_header_details #right_details {
+					float: left;
+					width: 35%;
+					}
+					#ezmailing_header_details p {
+						font-size: 1em;
+						margin: 0 0 10px;
+						}
+						#ezmailing_header_details a {
+							color: #fff;
+							text-decoration: none;
+							}
+						#ezmailing_header_details a:hover {
+							color: #fff;
+							text-decoration: underline;
+							}
+			
+			#grabber {
+				height: 20px;
+				padding-top: 20px;
+				text-align: center;
+				}
+           
+        #ezmailing_content h2 {
+            color: #A7A7A7;
+            font-size: 2em;
+            font-weight: normal;
+            line-height: 1em;
+            margin: 15px 0 0 20px;
+            }
+		.mailing_lists_edit_container #ezmailing_content h2 {
+			color: #e46809;
+			margin-left: 0;
+			}
+			.mailing_lists_edit_container #ezmailing_content h2 span {
+				color: #2F3743;
+				font-size: 0.5em;
+				margin-left: 45px;
+				text-transform: capitalize;
+				}
+				.mailing_lists_edit_container #ezmailing_content h2 span img {
+					margin-right: 10px;
+					position: relative;
+						bottom: -2px;
+					}
+		#ezmailing_search_form {margin-top: 25px;}
+        #ezmailing_item_states {
+            background: #f3f3f3;
+            border-radius: 4px 4px 4px 4px; 
+            -moz-border-radius: 4px 4px 4px 4px; 
+            -webkit-border-radius: 4px 4px 4px 4px;
+            margin: 25px 0 10px 0;
+            padding: 11px 20px;
+            }
+            .ezmailing_registrations_container ul li .ezmailing_state {
+                margin: 18px 0 0;
+                }
+        .ezmailing_users_container #ezmailing_item_states {
+            float: left;
+            height: 120px;
+			margin: 25px 1% 0 0;
+            padding: 11px 20px;
+            width: 40%;
+            }
+            
+            #ezmailing_item_states h3 {
+                font-size: 1.166em;
+                margin: 0 0 10px 0;
+                }
+            
+            #ezmailing_item_states ul {margin: 0;}
+            .ezmailing_users_container #ezmailing_item_states ul {text-align: center;}
+            
+                #ezmailing_item_states ul li {
+                    float: left;
+                    list-style-type: none;
+                    text-align: center;
+                    width: 12.5%;
+                    }
+                .ezmailing_registrations_container #ezmailing_item_states ul li {
+                    width: 14%;
+                    }
+				.ezmailing_users_container #ezmailing_item_states ul li {
+					display: inline-block;
+					float: none;
+					float: left\9;
+					width: 25%;
+					width: 45%\9;
+					}
+                .ezmailing_registrations_container #ezmailing_item_states ul li {width: 19.5%;}
+                    
+                    #ezmailing_item_states ul li a ,
+                    #ezmailing_item_states ul li a:hover {
+						color: #B6B6B6;
+                        font-size: 1.3em;
+                        line-height: 1em;
+                        text-decoration: none;
+                        }
+                        #ezmailing_item_states ul li a img {margin-bottom: 10px;}
+
+                    #ezmailing_item_states ul li#draft a {color: #000;}
+                    #ezmailing_item_states ul li#tested a {color: #4a9fff;}
+                    #ezmailing_item_states ul li#confirmed a {color: #a336ff;}
+                    #ezmailing_item_states ul li#waiting a {color: #e46809;}
+                    #ezmailing_item_states ul li#sending a {color: #1ed8e9;}
+                    #ezmailing_item_states ul li#sent a {color: #73D800;}
+                    #ezmailing_item_states ul li#success a {color: #76da00;}
+                    #ezmailing_item_states ul li#cancelled a {color: #000;}
+                    #ezmailing_item_states ul li#deleted a {color: #a60000;}
+                    
+                    #ezmailing_item_states ul li#listed a {color: #60a70c;}
+                    #ezmailing_item_states ul li#orphan a {color: #4f3661;}
+                    
+                    #ezmailing_item_states ul li#registred a {color: #075670;}
+                    #ezmailing_item_states ul li#unregistred a {color: #5a5f09;}
+                    #ezmailing_item_states ul li#blocked a {color: #ff0000;}
+                    #ezmailing_item_states ul li#softbounce a {color: #871f1f;}
+                    #ezmailing_item_states ul li#hardbounce a {color: #562917;}
+
+                    
+                    #ezmailing_item_states ul li a span {display: block;}
+                    #ezmailing_item_states ul li a span.off {color: #B6B6B6;}
+                
+			.ezmailing_users_container #ezmailing_search_form {
+				float: left;
+				margin-top: 25px;
+				width: 54%;
+				}
+				.ezmailing_users_container #ezmailing_search_form h3 {
+					font-size: 1.166em;
+					margin: 0 0 10px;
+					}
+        #ezmailing_sort {
+            background: #f3f3f3;
+            border-radius: 4px 4px 4px 4px; 
+            -moz-border-radius: 4px 4px 4px 4px; 
+            -webkit-border-radius: 4px 4px 4px 4px;
+            float: right;
+            padding: 11px 15px;
+            width: 240px;
+            }
+		.ezmailing_users_container #ezmailing_sort {
+			height: 120px;
+			width: 150px;
+			}
+        #ezmailing_sort .jqTransformSelectWrapper {
+            height: 37px;
+            width: 240px;
+            }
+        .ezmailing_users_container #ezmailing_sort .jqTransformSelectWrapper {width: 150px;}
+        #ezmailing_sort .jqTransformSelectWrapper div span {
+            color: #000;
+            font-size: 1.166em;
+            height: 26px;
+            line-height: 1em;
+            padding-left: 10px;
+            padding-top: 10px;
+            width: 194px;
+            }
+        .ezmailing_users_container #ezmailing_sort .jqTransformSelectWrapper div span {width: 104px;}
+        
+        #ezmailing_sort .jqTransformSelectWrapper a.jqTransformSelectOpen {
+            height: 36px;
+            width: 36px;
+            }
+            
+            #ezmailing_sort .jqTransformSelectWrapper ul {
+                height: auto;
+                padding: 0 10px;
+                top: 33px;
+                width: 218px;
+                }
+        .ezmailing_users_container #ezmailing_sort .jqTransformSelectWrapper ul {width: 128px;}
+                
+        #ezmailing_sort .jqTransformSelectWrapper ul li {border-bottom: 1px solid #e1e1e1;}
+        #ezmailing_sort .jqTransformSelectWrapper ul li:last-child {border-bottom: 0 none;}
+        #ezmailing_sort .jqTransformSelectWrapper ul a {
+            color: #656565;
+            padding: 5px 0;
+            }
+            
+        #ezmailing_sort .jqTransformSelectWrapper ul a.selected,
+        #ezmailing_sort .jqTransformSelectWrapper ul a:hover,
+        #ezmailing_sort .jqTransformSelectWrapper ul a.selected:hover {
+            color: #000;
+            background: #fff;
+            }
+            
+        #ezmailing_search {
+            background: #f3f3f3;
+            border-radius: 4px 4px 4px 4px; 
+            -moz-border-radius: 4px 4px 4px 4px; 
+            -webkit-border-radius: 4px 4px 4px 4px;
+            margin-right: 280px;
+            padding: 11px 15px;
+            }
+		.ezmailing_users_container #ezmailing_search {
+			height: 120px;
+			margin-right: 190px;
+			}
+        #ezmailing_search h3,
+		#ezmailing_sort h3 {
+			font-size: 1.166em;
+			margin: 0 0 10px;
+			}
+        #ezmailing_search p {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            }
+            
+            #ezmailing_search p {
+                background: #FFF;
+                border-radius: 4px 4px 4px 4px; 
+                -moz-border-radius: 4px 4px 4px 4px; 
+                -webkit-border-radius: 4px 4px 4px 4px;
+                border: 1px solid #c7c9cc;
+                margin: 0;
+                padding: 0 40px 0 8px;
+                position: relative;
+                }
+                
+                #ezmailing_search p input#ezmailing_search_text {
+                    border: 0 none;
+                    font-size: 1.166em;
+                    font-style: italic;
+                    line-height: 1em;
+                    padding: 8px 0 5px 0;
+                    width: 100%;
+                    }
+                    
+                #ezmailing_search p input#ezmailing_search_ok {
+                    background: url("../images/bg/ok.gif") no-repeat scroll 0 0;
+                    border: 0 none;
+                    cursor: pointer;
+                    height: 13px;
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    width: 26px;
+                    }                   
+    
+            #ezmailing_record_list ul {margin: 0 0 30px 0;}
+            
+        #ezmailing_record_list ul li.ezmailing_list_item {
+            background: url("../images/bg/bg_news_item.png") no-repeat scroll left bottom;
+            border-radius: 4px 4px 4px 4px; 
+            -moz-border-radius: 4px 4px 4px 4px; 
+            -webkit-border-radius: 4px 4px 4px 4px;
+            border-top: 1px solid #f8f8f8;
+            list-style-type: none;
+            margin: 15px 18px 0 0;
+            padding: 10px 47px 2px 20px;
+            position: relative;
+            }
+            
+            #ezmailing_record_list ul li p.ezmailing_sending_date {
+                float: right;
+                font-size: 1.166em;
+                line-height: 1em;
+                margin: 0;
+                position: relative;
+                }
+			.ezmailing_mailinglists_container #ezmailing_record_list ul li p.ezmailing_sending_date {
+				margin: 0 4% 0 0;
+				text-align: right;
+				}
+            .ezmailing_mailinglists_container #ezmailing_record_list ul li p.ezmailing_sending_date span {display: block;}
+            .ezmailing_mailinglists_container #ezmailing_record_list ul li p.ezmailing_sending_date span:first-child {margin-bottom: 10px;}
+            .ezmailing_mailinglists_container #ezmailing_record_list ul li p.ezmailing_sending_date span.ezmailing_tooltip {display: none;}
+            #ezmailing_record_list ul li p.ezmailing_sending_date a img {
+                position: relative;
+                top: 5px;
+                }
+            .ezmailing_tooltip {
+                background: url("../images/bg/bg_tooltip.png") no-repeat scroll left top;
+                color: #FFFFFF;
+                display: none;
+                font-size: 0.785em;
+                height: 41px;
+                line-height: 1em;
+                padding-left: 30px;
+                padding-top: 17px;
+                position: absolute;
+					top: -48px;
+					right: -25px;
+					left: auto;
+				width: 195px;
+				z-index: 10000;
+				}
+                .ezmailing_tooltip span {
+                    display: block;
+					padding-bottom: 2px;
+                    }
+					.ezmailing_tooltip span.clear {
+						line-height: 0;
+						padding-bottom: 0;
+						}
+			
+			#ezmailing_record_list ul li h3 {
+                font-size: 1.5em;
+                font-weight: normal;
+                line-height: 1em;
+                margin: 0 0 5px 0;
+                }
+                
+                #ezmailing_record_list ul li h3 a {
+                    color: #e46809;
+                    text-decoration: underline;
+                    }
+                #ezmailing_record_list ul li h3 a:hover {text-decoration: none;}
+            #ezmailing_record_list ul li h4 {
+                color: #7b7b7b;
+                font-size: 1.166em;
+                font-weight: normal;
+                line-height: 1.166em;
+                margin: 0;
+                }
+            #ezmailing_record_list ul li .ezmailing_user_email {
+                float: left;
+                min-height: 66px;
+                width: 35%;
+                }
+                #ezmailing_record_list ul li .ezmailing_user_email h3 {
+                    margin: 0.7em 0 0.2em;
+                    }
+            #ezmailing_container.ezmailing_users_container #ezmailing_record_list ul li .ezmailing_state {
+                margin: 2px 0 0;
+                }
+            #ezmailing_record_list ul li .ezmailing_sender {
+                float: left;
+                margin: 2px 0 0 0;
+                width: 35%
+                }
+                #ezmailing_record_list ul li .ezmailing_sender h5 {
+                    background: url("../images/bg/bg_sender.png") no-repeat scroll left top;
+                    color: #000000;
+                    font-size: 1.166em;
+                    font-weight: bold;
+                    line-height: 1em;
+                    margin: 0;
+                    padding: 7px 0 15px 32px;
+                    }
+                #ezmailing_record_list ul li .ezmailing_sender p.ezmailing_sender_name {
+                    color: #434343;
+                    font-size: 1.5em;
+                    line-height: 1em;
+                    margin: 0 0 5px;
+                    }
+                #ezmailing_record_list ul li .ezmailing_sender p.ezmailing_sender_email {
+                    color: #434343;
+                    font-size: 1.166em;
+                    line-height: 1.166em;
+                    margin: 0;
+                    }
+            #ezmailing_record_list ul li .ezmailing_mailing_list {
+                float: left;
+                margin: 2px 0 0 0;
+                min-height: 40px;
+                width: 25%;
+                }
+                #ezmailing_record_list ul li .ezmailing_mailing_list h5 {
+                    background: url("../images/bg/bg_mailing_list.png") no-repeat scroll left top;
+                    color: #000000;
+                    font-size: 1.166em;
+                    font-weight: bold;
+                    line-height: 1em;
+                    margin: 0;
+                    padding: 7px 0 15px 32px;
+                    }
+                #ezmailing_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item img {
+                    float: right;
+                    margin: 0 5px;
+                    }
+                #ezmailing_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item p {
+                    color: #434343;
+                    font-size: 1.166em;
+                    line-height: 1em;
+                    margin: 0 0 5px 0;
+                    }
+                    #ezmailing_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item p a {
+                        color: #434343;
+                        text-decoration: none;
+                        }
+                    #ezmailing_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item p a:hover {text-decoration: underline;}
+            
+			.ezmailing_registrations_container #ezmailing_record_list ul li .ezmailing_user_email,
+			#mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_user_email {
+				margin: 0 2% 0 0;
+				padding: 0;
+				width: 33%;
+				}
+			#form_import_users h2 {
+				border-top: 1px solid #DCDCDC;
+				margin: 0 0 0 20px;
+				padding: 25px 0 30px;
+				}
+			#form_import_users #ezmailing_record_list {
+				max-height: 450px;
+				overflow: auto;
+				}
+				#ezmailing_record_list ul li.ezmailing_import {margin: 0 18px 5px 0;}
+				#ezmailing_record_list ul li.ezmailing_import .ezmailing_mailing_lists_registration {
+					float: left;
+					width: 30%;
+					}
+				#ezmailing_record_list ul li.ezmailing_import .ezmailing_import_lang {
+					float: left;
+					width: auto;
+					}
+					#ezmailing_record_list ul li.ezmailing_import .ezmailing_import_lang p {
+						font-size: 1.5em;
+						line-height: 2.667em;
+						margin: 10px 0 0;
+						}
+						#ezmailing_record_list ul li.ezmailing_import .ezmailing_import_lang p img {							
+							position: relative;
+								bottom: -10px;
+							}
+					#form_import_users button {
+						background: url("../images/bg/bg_export_record.png") no-repeat scroll left top #2F2F2F;
+						border: 0 none;
+						border-radius: 3px 3px 3px 3px; 
+						-moz-border-radius: 3px 3px 3px 3px; 
+						-webkit-border-radius: 3px 3px 3px 3px;
+						color: #FFFFFF;
+						font-family: arial;
+						font-size: 1em;
+						height: 31px;
+						line-height: 1em;
+						margin: 30px 0 0 0;
+						padding: 0 22px 0 44px;
+						text-align: left;
+						}
+				#import_users {padding-bottom: 25px;}
+				#ezmailing_record_list ul li.ezmailing_import .ezmailing_sending_date {
+					background: url("../images/pictos/clock.png") no-repeat scroll left top;
+					padding-left: 30px;
+					}
+					#ezmailing_record_list ul li.ezmailing_import .ezmailing_sending_date span {display: block;}
+					#ezmailing_record_list ul li.ezmailing_import .ezmailing_sending_date span:first-child {margin-bottom: 10px;}
+					
+					
+			.ezmailing_registrations_container #ezmailing_record_list ul li .ezmailing_mailing_list,
+			#mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_mailing_list {
+				margin: 0 2% 0 0;
+				padding: 0;
+				width: 37%;
+				}
+				.ezmailing_registrations_container #ezmailing_record_list ul li .ezmailing_mailing_list p.registration_date,
+				#mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_mailing_list p.registration_date {
+					font-size: 1.166em;
+					line-height: 1em;
+					margin: 0 0 5px 0;
+					padding: 5px 0 5px 33px;
+					position: relative;
+					}
+					.ezmailing_registrations_container #ezmailing_record_list ul li .ezmailing_mailing_list p.registration_date a,
+					#mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_mailing_list p.registration_date a {
+						position: absolute;
+						top: 0;
+						left: 0;
+						}
+					.ezmailing_registrations_container #ezmailing_record_list ul li .ezmailing_mailing_list p.registration_date .ezmailing_tooltip,
+					#mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_mailing_list p.registration_date .ezmailing_tooltip,
+					#dashboard_campaigns .dashboard_record_list ul li .ezmailing_mailing_list p.registration_date .ezmailing_tooltip {
+						background-image: url("../images/bg/bg_tooltip2.png");
+						top: -55px;
+						right: auto;
+						left: -25px;
+						}
+						
+				.ezmailing_registrations_container #ezmailing_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item,
+				#mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item {
+					background: url("../images/bg/bg_mailing_list.png") no-repeat scroll left top transparent;
+					color: #000000;
+					font-size: 1.166em;
+					font-weight: bold;
+					line-height: 1em;
+					margin: 0;
+					padding: 5px 0 5px 32px;
+					}
+					
+					.ezmailing_registrations_container #ezmailing_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item p,
+					#mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item p {
+						font-size: 1em;
+						margin: 0;
+						}
+
+					.ezmailing_registrations_container #ezmailing_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item p a,
+					#mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item p a {
+						color: #2f3742;
+						font-weight: normal;
+						}
+
+						
+			.ezmailing_registrations_container #ezmailing_record_list ul li .ezmailing_state,
+			#mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_state {
+				margin: 0 2% 0 0;
+				padding: 0;
+				width: 23%;
+				}
+            #ezmailing_record_list ul li .ezmailing_state {
+                float: left;
+                padding-left: 95px;
+                text-align: center;
+                }
+            #ezmailing_record_list ul li .ezmailing_state p {
+                font-size: 1.166em;
+                line-height: 1em;
+                }
+                
+            .ezmailing_registrations_container #ezmailing_record_list ul li .ezmailing_state img,
+            #mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_state img {float: left;}
+            
+            #mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_state_view_mailing_list {text-align: center;}
+				#mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_state_view_mailing_list img {float: none;}
+            
+            .ezmailing_registrations_container #ezmailing_record_list ul li .ezmailing_state p,
+            #mailing_lists_registrations #ezmailing_record_list ul li .ezmailing_state p {
+                display: inline-block;
+                float: left;
+				line-height: 1em;
+				margin: 26px 0 0 10px;
+                }
+            #ezmailing_record_list ul li.ezmailing_draft_news .ezmailing_state p {color: #a7a7a7;}
+            #ezmailing_record_list ul li.ezmailing_tested_news .ezmailing_state p {color: #80bcff;}
+            #ezmailing_record_list ul li.ezmailing_confirmed_news .ezmailing_state p {color: #be72ff;}
+            #ezmailing_record_list ul li.ezmailing_waiting_for_sending_news .ezmailing_state p {color: #ec9552;}
+            #ezmailing_record_list ul li.ezmailing_sending_in_progress_news .ezmailing_state p {color: #61e4f0;}
+            #ezmailing_record_list ul li.ezmailing_sent_news .ezmailing_state p {color: #afd186;}
+
+            #ezmailing_record_list ul li.ezmailing_success_news .ezmailing_state p {color: #9fe54c;}
+            #ezmailing_record_list ul li.ezmailing_cancelled_news .ezmailing_state p {color: #999;}
+            #ezmailing_record_list ul li.ezmailing_deleted_news .ezmailing_state p {color: #db9999;}
+            
+            .ezmailing_users_container #ezmailing_record_list ul li .ezmailing_state p {color: #bfdc9e;}
+            .ezmailing_users_container #ezmailing_record_list ul li.ezmailing_orphan_user .ezmailing_state p {color: #b9afc0;}
+            
+            .ezmailing_registrations_container ul li.ezmailing_registred_registration .ezmailing_state p,
+            #mailing_lists_registrations ul li.ezmailing_registred_registration .ezmailing_state p {color: #aac3cc; }
+            .ezmailing_registrations_container ul li.ezmailing_unregistred_registration .ezmailing_state p,
+            #mailing_lists_registrations ul li.ezmailing_unregistred_registration .ezmailing_state p {color: #bdbf9d; }
+            .ezmailing_registrations_container ul li.ezmailing_blocked_registration .ezmailing_state p,
+            #mailing_lists_registrations ul li.ezmailing_blocked_registration .ezmailing_state p {color: #ff9999; }
+            .ezmailing_registrations_container ul li.ezmailing_soft_bounce_registration .ezmailing_state p,
+            #mailing_lists_registrations ul li.ezmailing_soft_bounce_registration .ezmailing_state p {color: #cfa5a5; }
+            .ezmailing_registrations_container ul li.ezmailing_soft_bounce_registration .ezmailing_state p,
+            #mailing_lists_registrations ul li.ezmailing_soft_bounce_registration .ezmailing_state p {color: #bba9a2; }
+            
+            #ezmailing_record_list ul li .ezmailing_open_actions {                
+                position: absolute;
+                    right: 26px;
+                    bottom: -15px;
+                text-align: center;
+                width: 70px;
+                }
+                #ezmailing_record_list ul li .ezmailing_open_actions a {                
+                    color: #E46809;
+                    font-size: 1.603em;
+                    line-height: 1em;
+                    text-align: center;
+                    text-decoration: none;
+                    }
+                    #ezmailing_record_list ul li .ezmailing_open_actions a span {display: block;}
+                    
+            #ezmailing_record_list ul li .ezmailing_checkbox_button {
+                background: #e98012;
+                background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e98012), to(#e16108));
+                background-image: -moz-linear-gradient(top,  #e98012,  #e16108);
+                background-image: -ms-linear-gradient(top,  #e98012,  #e16108);
+                background-image: -o-linear-gradient(top,  #e98012,  #e16108);
+                background-image: linear-gradient(top,  #e98012,  #e16108);
+                border-radius: 4px 4px 4px 4px; 
+                -moz-border-radius: 4px 4px 4px 4px; 
+                -webkit-border-radius: 4px 4px 4px 4px;
+                border: 1px solid #b8b3af;
+                height: 100%;
+                padding: 0 1px;
+                position: absolute;
+                    right: -20px;
+                    bottom: 0;
+                }
+                #ezmailing_record_list ul li .ezmailing_checkbox_button table {height: 100%}
+                
+                    #ezmailing_record_list ul li .ezmailing_checkbox_button table td {vertical-align: middle;}
+                    
+                    #ezmailing_record_list ul li .ezmailing_checkbox_button table td span.jqTransformCheckboxWrapper,
+                    #ezmailing_record_list ul li .ezmailing_checkbox_button table td span.jqTransformRadioWrapper {margin: 0;}
+                    
+            #ezmailing_record_list ul li .ezmailing_actions_buttons {
+                background: #E87A10;
+                background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E26308), to(#E87A10));
+                background-image: -moz-linear-gradient(top,  #E26308,  #E87A10);
+                background-image: -ms-linear-gradient(top,  #E26308,  #E87A10);
+                background-image: -o-linear-gradient(top,  #E26308,  #E87A10);
+                background-image: linear-gradient(top,  #E26308,  #E87A10);
+                border-radius: 0 0 4px 4px; 
+                -moz-border-radius: 0 0 4px 4px; 
+                -webkit-border-radius: 0 0 4px 4px;
+                border: 1px solid #b8b3af;
+                border-top: 0 none;
+                display: none;
+                height: 33px;
+                padding: 10px 0 11px 0;
+                position: absolute;
+                    right: 0;
+                    left: 0;
+                }
+
+                #ezmailing_record_list ul li .ezmailing_actions_buttons ul {margin: 0 0 0 130px;}
+
+                    #ezmailing_record_list ul li .ezmailing_actions_buttons ul li {
+                        background: none;
+                        border-radius: 0;
+                        -moz-border-radius: 0; 
+						-webkit-border-radius: 0;
+                        border: 0 none;
+                        float: left;
+                        list-style-type: none;
+                        margin: 0 20px 0 0;
+                        padding: 0;
+                        position: relative;
+                        }
+                        #ezmailing_record_list ul li .ezmailing_actions_buttons ul li a {
+                            background-color: #2f2f2f;
+                            border-radius: 3px 3px 3px 3px; 
+                            -moz-border-radius: 3px 3px 3px 3px; 
+                            -webkit-border-radius: 3px 3px 3px 3px;
+                            border: 1px solid #706C69;
+                            color: #fff;
+                            display: block;
+                            font-size: 1.166em;
+                            line-height: 1em;
+                            height: 16px;
+                            padding: 7px 22px 8px 42px;
+                            text-decoration: none;
+                            }
+                        #ezmailing_record_list ul li .ezmailing_actions_buttons ul li a:hover {text-decoration: none;}
+
+                        #ezmailing_record_list ul li .ezmailing_actions_buttons ul li.edit_record a {background: url("../images/bg/bg_edit_news.png") #2f2f2f no-repeat scroll left top;}
+
+                        #ezmailing_record_list ul li .ezmailing_actions_buttons ul li.send_news a {background: url("../images/bg/bg_send_news.png") #2f2f2f no-repeat scroll left top;}
+
+                        #ezmailing_record_list ul li .ezmailing_actions_buttons ul li.preview_news a {background: url("../images/bg/bg_preview_news.png") #2f2f2f no-repeat scroll left top;}
+                        
+                        #ezmailing_record_list ul li .ezmailing_actions_buttons ul li.export_record a {background: url("../images/bg/bg_export_record.png") #2f2f2f no-repeat scroll left top;}
+                        
+                        #ezmailing_record_list ul li .ezmailing_actions_buttons ul li.remove_record a {background: url("../images/bg/bg_remove_record.png") #2f2f2f no-repeat scroll left top;}
+            #ezmailing_record_list ul li .ezmailing_close_actions {                
+                position: absolute;
+                    right: 25px;
+                    bottom: -25px;
+                text-align: center;
+                width: 70px;
+                }
+                #ezmailing_record_list ul li .ezmailing_close_actions a {                
+                    color: #fff;
+                    font-size: 1.603em;
+                    line-height: 1em;
+                    text-align: center;
+                    text-decoration: none;
+                    }
+                    #ezmailing_record_list ul li .ezmailing_close_actions a span {display: block;}
+            .ezmailing_mailinglists_container #ezmailing_record_list ul li .ezmailing_mailing_lists_registration {                
+                float: left;
+                min-height: 40px;
+                width: 30%;
+                }
+                #ezmailing_record_list ul li .ezmailing_mailing_lists_registration p.mailing_list_registrations_count {
+					color: #434343;
+					font-size: 1.5em;
+					line-height: 2.667em;
+					margin: 2px 0 0 0;
+					}
+					#ezmailing_record_list ul li .ezmailing_mailing_lists_registration p.mailing_list_registrations_count span {
+						color: #E46809;
+						font-size: 2.667em;
+						margin-right: 10px;
+						position: relative;
+						}
+            .ezmailing_mailinglists_container #ezmailing_record_list ul li .ezmailing_mailing_lists_lang {                
+                float: left;
+                text-transform: capitalize;
+                width: 30%;
+                }
+                .ezmailing_mailinglists_container #ezmailing_record_list ul li .ezmailing_mailing_lists_lang img {
+					margin-right: 5px;
+					position: relative;
+						bottom: -2px;
+					}
+                    
+            #ezmailing_actions_submit {padding: 0 0 50px 0;}
+                #ezmailing_actions_submit ul {margin: 0;}
+
+                        #ezmailing_actions_submit ul li {
+                            border-radius: 3px 3px 3px 3px; 
+                            -moz-border-radius: 3px 3px 3px 3px; 
+                            -webkit-border-radius: 3px 3px 3px 3px;
+                            border: 1px solid #706C69;
+                            color: #fff;
+                            display: block;
+                            float: left;
+                            font-size: 1.166em;
+                            line-height: 1em;
+                            list-style-type: none;
+                            margin: 0 20px 0 0;
+                            padding: 2px 0;
+                            text-align: left;
+                            }
+                        #ezmailing_actions_submit ul li#remove_selected {
+							background: url("../images/bg/bg_ezmailing_delete_off.png") #C9C9C9 no-repeat scroll left center;
+							border-color: #C9C9C9;
+							}
+						#ezmailing_actions_submit ul li#remove_selected.on {
+							background: url("../images/bg/bg_ezmailing_delete.png") #2f2f2f no-repeat scroll left center;
+							border-color: #706C69;
+							}
+						#ezmailing_actions_submit ul li#new_record {background: url("../images/bg/bg_new_campaign.png") #2f2f2f no-repeat scroll left center;}
+                        #ezmailing_actions_submit ul li#export_campaign {background: url("../images/bg/bg_export_campaign.png") #2f2f2f no-repeat scroll left center;}
+                        #ezmailing_actions_submit ul li#export_campaign.export_campaign_disabled {background: url("../images/bg/bg_export_off_record.png") #ababab no-repeat scroll left center; border: 1px solid #ababab;}
+                        
+                        #ezmailing_actions_submit ul li#edit_compain {
+							background: url("../images/bg/bg_edit_news.png") #2f2f2f no-repeat scroll left center;
+							padding: 0;
+							}
+						#ezmailing_actions_submit ul li#send_compain {
+							background: url("../images/bg/bg_send_news.png") no-repeat scroll left top #2F2F2F;
+							padding: 0;
+							}
+						#ezmailing_actions_submit ul li#stat_compain {
+							background: url("../images/bg/bg_mailing_lists_stat.png") no-repeat scroll left top #2F2F2F;
+							padding: 0;
+							}
+						#ezmailing_actions_submit ul li#preview_compain {
+							background: url("../images/bg/bg_preview_news.png") no-repeat scroll left top #2F2F2F;
+							padding: 0;
+							}
+						#ezmailing_actions_submit ul li#export_compain {
+                            background: url("../images/bg/bg_export_campaign.png") no-repeat scroll left top #2F2F2F;
+                            padding: 0;
+                            }
+                        
+                            #ezmailing_actions_submit ul li button {                            
+                                background: none repeat scroll 0 0 transparent;
+                                border: 0 none;
+                                color: #FFFFFF;
+                                font-family: arial;
+                                font-size: 1em;
+                                height: 31px;
+                                line-height: 1em;
+                                padding: 0 22px 0 44px;
+                                text-align: left;
+                                }
+                             #ezmailing_actions_submit ul li a {                            
+                                background: none repeat scroll 0 0 transparent;
+                                border: 0 none;
+								color: #FFFFFF;
+								display: block;
+								font-family: arial;
+								font-size: 1em;
+								height: 23px;
+								line-height: 1em;
+								padding: 8px 22px 0 44px;
+								text-align: left;
+								text-decoration: none;
+                                }
+                    #ezmailing_mailing_lists {margin: 10px 0 0 20px;}
+						#ezmailing_mailing_lists ul {margin: 0;}
+							#ezmailing_mailing_lists ul li {
+								background: url("../images/bg/bg_news_item.png") no-repeat left bottom;
+								border-radius: 4px 4px 4px 4px; 
+								-moz-border-radius: 4px 4px 4px 4px; 
+								-webkit-border-radius: 4px 4px 4px 4px;
+								border-top: 1px solid #f8f8f8;
+								/*float: left;*/
+								list-style-type: none;
+								margin: 0 2% 20px 0;
+								/*width: 47%;*/
+								}
+							#ezmailing_mailing_lists ul li div {padding: 15px 15px 5px;}
+							#ezmailing_mailing_lists ul li div.clear {padding: 0;}
+							#ezmailing_mailing_lists ul li div p.mailing_lists_lang {
+								float: right;
+								margin: 0;
+								text-transform: capitalize;
+								}
+								#ezmailing_mailing_lists ul li div p.mailing_lists_lang img {
+									margin-right: 2px;
+									position: relative;
+										bottom: -3px;
+									}
+							#ezmailing_mailing_lists ul li div h3 {
+								color: #E46809;
+								font-size: 1.5em;
+								font-weight: normal;
+								line-height: 1em;
+								margin: 0 0 5px;
+								}
+							#ezmailing_mailing_lists ul li div p.mailing_list_registrations_count {
+								color: #434343;
+								font-size: 1.5em;
+								line-height: 2.667em;
+								margin: 10px 0 0 0;
+								}
+							#ezmailing_mailing_lists ul li div p.mailing_list_registrations_count span {
+								color: #E46809;
+								font-size: 2.667em;
+								}
+					#ezmailing_edit {
+						margin-top: 45px;
+						padding-left: 20px;
+						}
+						#ezmailing_edit .ezmailing_edit_left {
+							float: left;
+							width: 45%;
+							}
+						#ezmailing_edit #ezmailing_campaign_edit_left {width: auto;}
+						#ezmailing_edit .block {
+							margin: 0 0 10px;
+							padding: 0;
+							}
+						#ezmailing_edit #zip_code_bloc {padding: 42px 0 0 0;}
+						#ezmailing_edit #ezmailing_campaign_edit_left .block label {
+							margin-right: 15px;
+							width: 150px;
+							}
+						#ezmailing_edit .block label {
+							display: block;
+							color: #2f3742;
+							float: left;
+							font-size: 1.5em;
+							font-weight: normal;
+							line-height: 1em;
+							margin: 4px 0 10px 0;
+							white-space: pre-wrap;
+							}
+							#ezmailing_edit #user_main_information {padding: 0 0 20px;}
+								#user_main_information h3 {
+									color: #E4670A;
+									font-size: 2.5em;
+									font-weight: normal;
+									line-height: 1em;
+									margin: 0 0 10px;
+									}
+                                 #user_main_information h4 {
+                                    color: #424242;
+                                    font-size: 2em;
+                                    font-weight: normal;
+                                    margin: 40px 0;
+									}
+                                  #user_main_information p {
+                                    color: #2F3742;
+                                    font-size: 1.5em;
+                                    margin: 0;
+									}
+                                    #user_main_information p a {
+                                        color: #2F3742;
+                                        margin-left: 15px;
+                                        text-decoration: none;
+
+                                        }
+                                    #user_main_information p a:hover {text-decoration: underline;}  
+                        form.jqtransformdone #ezmailing_edit .block label {white-space: nowrap;}
+                        #ezmailing_edit .block input[type="text"] {
+                            border: 2px solid #D0D2D4;
+                            border-radius: 4px 4px 4px 4px;
+                            -moz-border-radius: 4px 4px 4px 4px; 
+                            -webkit-border-radius: 4px 4px 4px 4px;
+                            color: #2e373e;
+                            float: right;
+                            font-size: 1em;
+                            margin-bottom: 10px;
+                            margin-right: 20px;
+                            padding: 5px;
+                            width: 213px;
+
+                            }
+                        #ezmailing_edit #ezmailing_campaign_edit_left .block input[type="text"] {float: left;}
+                        #ezmailing_edit .block .blocElement input[type="text"] {float: left;}
+                        #ezmailing_edit .block #campaign_sending_date input[type="text"],
+                        #ezmailing_edit .block #campaign_sending_time input[type="text"] {float: right;}
+                        #ezmailing_container #ezmailing_content .ezmailing_edit_list .block input#name {margin-bottom: 65px;}
+                        #ezmailing_content #ezmailing_edit .block input.numeric {width: 113px;}
+                        #ezmailing_edit textarea {
+                            border: 2px solid #D0D2D4;
+                            border-radius: 4px 4px 4px 4px;
+                            -moz-border-radius: 4px 4px 4px 4px; 
+                            -webkit-border-radius: 4px 4px 4px 4px;
+                            color: #2E373E;
+                            font-size: 1em;
+                            height: 72px;
+                            margin: 0 20px 10px 0;
+                            padding: 5px;
+                            width: 213px;
+
+                            }
+                        #ezmailing_edit .ezmailing_edit_left .block textarea {float: right;}
+                        #ezmailing_edit .ezmailing_edit_left .block textarea#address {resize: none;}
+                        #ezmailing_edit #ezmailing_campaign_edit_left .block textarea {float: left;}                        
+                        #ezmailing_edit .jqTransformSelectWrapper {
+							float: right;
+                            height: 37px;
+                            margin-right: 20px;
+                            width: 227px;
+							}
+						
+                        #ezmailing_edit #ezmailing_campaign_edit_left .jqTransformSelectWrapper {
+                            float: left;
+                            margin-left: 174px;
+							}
+							
+                        .ezmailing_edit_list .inlineBlock .ezmailing_edit_right .jqTransformSelectWrapper {margin-bottom: 55px;}
+						
+                        #ezmailing_content .ezmailing_edit_user .ezmailing_edit_right .jqTransformSelectWrapper {margin-right: 0;}
+                        #ezmailing_edit .dyn_content .jqTransformSelectWrapper {
+                            float: none;
+
+                            }
+                            #ezmailing_edit .jqTransformSelectWrapper a.jqTransformSelectOpen {
+                                height: 36px;
+                                width: 36px;
+                                }
+								
+                            #ezmailing_edit .jqTransformSelectWrapper div span {
+                                color: #000;
+                                font-size: 1.166em;
+                                height: 26px;
+                                line-height: 1em;
+                                padding-left: 10px;
+                                padding-top: 10px;
+                                width: 184px;
+								}
+								
+                            #ezmailing_edit .dyn_content .jqTransformSelectWrapper div span {font-size: 1em;}
+							
+                            #ezmailing_edit .disabled div span {color: #a7a7a7;}
+                            #ezmailing_edit .jqTransformSelectWrapper ul {
+                                height: 200px;
+                                left: 1px;
+                                overflow: auto;
+                                padding: 0 10px;
+                                top: 33px;
+                                width: 204px;
+                                }
+								
+                                #ezmailing_edit .jqTransformSelectWrapper ul a {
+                                    color: #656565;
+                                    padding: 5px 0;
+                                    }
+									
+                                #ezmailing_edit .jqTransformSelectWrapper ul a.selected,
+                                #ezmailing_edit .jqTransformSelectWrapper ul a:hover,
+                                #ezmailing_edit .jqTransformSelectWrapper ul a.selected:hover {
+                                    background: #FFF;
+                                    color: #000;
+                                    }
+									
+                    #ezmailing_edit .ezmailing_edit_right {
+                        float: right;
+                        width: 45%;
+
+                        }
+                        #ezmailing_edit .blocElement {float: right;}
+                        #ezmailing_edit #campaign_sending_time {padding-right: 22px;}
+                        #ezmailing_content .ezmailing_edit_user .blocElement {width: 227px;/*247px;*/}
+                                #ezmailing_edit .block .blocElement .date_separator {
+                                    float: left;
+                                    font-size: 1.5em;
+                                    line-height: 1em;
+                                    margin-right: 10px;
+                                    padding: 3px 0;
+                                    }
+									
+                                #ezmailing_edit .block #campaign_sending_date .date_separator,
+                                #ezmailing_edit .block #campaign_sending_time .date_separator {float: right;}
+                                #ezmailing_edit .ezmailing_edit_left .block .blocElement .date_separator {float: left;}
+/*<<<<<<< HEAD*/
+                            #ezmailing_edit .block .blocElement input[type="text"] {
+                                margin-right: 10px;
+                                width: 30px;
+                                }
+								
+                            #ezmailing_edit .ezmailing_edit_left .block .blocElement input[type="text"] {float: left;}
+							
+                            #ezmailing_content .ezmailing_edit_user .ezmailing_edit_right .block input[type="text"] {
+                                margin-right: 0;
+                                width: 213px;
+								}
+							
+                            #ezmailing_edit .block .blocElement .datepicker-icon,
+                            #ezmailing_edit .block .blocElement .timepicker-icon {
+                                cursor: pointer;
+                                float: right;
+                                margin: 0;
+                                padding-top: 3px;
+                                }
+								
+                            #ezmailing_edit .block .blocElement .timepicker-icon {cursor: default;}
+                            #ezmailing_edit .ezmailing_edit_left .block .blocElement .datepicker-icon,
+                            #ezmailing_edit .ezmailing_edit_left .block .blocElement .timepicker-icon {float: left;}
+                                
+                            #ezmailing_edit .block p {
+                                float: right;
+                                font-size: 1.166em;
+                                line-height: 1em;
+                                margin: 7px 0 5px;
+                                white-space: pre-wrap;
+
+                                }
+                            #ezmailing_edit .block p.numeric {text-align: center;}
+                            #ezmailing_container #ezmailing_content .ezmailing_edit_list .block p {
+                                margin-right: 20px;
+                                width: 225px;
+                                }
+								
+                            #ezmailing_edit .block2 label {
+                                font-size: 1.166em;
+                                font-weight: bold;
+                                }
+								
+                                #ezmailing_edit #compaign_id p {
+                                    float: left;
+                                    margin: 5px 0;
+                                    }
+									
+                                    #ezmailing_edit .inlineBlock {
+                                        border-top: 1px solid #DCDCDC;
+                                        padding: 30px 0;
+                                        }
+										
+                                    #ezmailing_content .ezmailing_edit_list .inlineBlock {padding: 30px 0 0 0;}
+                                    #ezmailing_content .ezmailing_edit_user .inlineBlock ,
+                                    #ezmailing_content .ezmailing_view_user .inlineBlock {
+                                        border-bottom: 1px solid #DCDCDC;
+                                        border-top: 0 none;
+                                        margin-bottom: 20px;
+                                        padding: 0;
+                                        }
+									
+                                    #ezmailing_edit .inlineBlock .left_inlineBlock {
+                                        float: left;
+                                        width: 24%;
+                                        }
+										
+                                        #ezmailing_edit .inlineBlock .left_inlineBlock label {
+                                            float: none;
+                                            font-size: 1.5em;
+                                            font-weight: normal;
+                                            margin: 0;
+                                            padding: 0;
+                                            }
+											
+                                        #ezmailing_content .ezmailing_view_user .inlineBlock .block label {width: 40%;}
+                                        #ezmailing_content .ezmailing_view_user .inlineBlock .block p {
+                                            color: #424242;
+                                            float: left;
+                                            min-width: 30%;
+                                            }
+											
+                                    #ezmailing_record_list #campain_site_access {
+                                        border-top: 1px solid #DCDCDC;
+                                        padding: 25px 0 0;
+
+                                        }
+                                        #ezmailing_record_list #campain_site_access ul {margin: 0;}
+                                        #ezmailing_record_list #campain_site_access label {
+                                            display: block;
+                                            font-size: 1.5em;
+                                            font-weight: normal;
+                                            line-height: 1em;
+                                            margin: 0 0 020px 0;
+                                            }
+                                    
+                                    #ezmailing_record_list #campain_site_access li.ezmailing_list_item {margin: 0 18px 5px 0;}
+
+                                    
+                                        #ezmailing_record_list #campain_site_access li.ezmailing_list_item .site {
+                                            float: left;
+                                            margin-right: 1%;
+                                            width: 23%;
+                                            }
+											
+                                            #ezmailing_record_list #campain_site_access li.ezmailing_list_item .site h3 {
+                                                color: #E46809;
+                                                margin: 0;
+                                                }
+												
+                                        #ezmailing_record_list #campain_site_access li.ezmailing_list_item .url {
+                                            float: left;
+                                            margin-right: 1%;
+                                            width: 60%;
+                                            }
+                                            
+                                            #ezmailing_record_list #campain_site_access li.ezmailing_list_item .url a {
+                                                color: #7B7B7B;
+                                                font-size: 1.166em;
+                                                text-decoration: none;
+                                                }
+											
+                                            #ezmailing_record_list #campain_site_access li.ezmailing_list_item .url a:hover {text-decoration: underline;}
+                                            
+                                        #ezmailing_record_list #campain_site_access li.ezmailing_list_item .flag {
+                                            float: right;
+                                            text-transform: capitalize;
+                                            width: 14%;
+                                            }
+											
+                                    #ezmailing_record_list #campain_destinations {
+                                        border-top: 1px solid #DCDCDC;
+                                        margin: 30px 0;
+                                        padding: 25px 0 0;
+                                        }
+										
+                                    #ezmailing_record_list #campain_destinations label {
+                                        display: block;
+                                        font-size: 1.5em;
+                                        font-weight: normal;
+                                        line-height: 1em;
+                                        margin: 0 0 020px 0;
+                                        }
+										
+                                    #ezmailing_record_list #campain_destinations ul {margin: 0;}
+                                    #ezmailing_record_list #campain_destinations li.ezmailing_list_item {
+                                        margin: 0 18px 5px 0;
+                                        padding-bottom: 0;
+                                        }
+										
+                                        #ezmailing_record_list #campain_destinations li.ezmailing_list_item .destination {
+                                            float: left;
+                                            margin-right: 1%;
+                                            width: 33%;
+                                            }
+											
+                                                #ezmailing_record_list #campain_destinations li.ezmailing_list_item .destination h3 {
+                                                    color: #E46809;
+                                                    margin: 0;
+                                                    }
+	
+                                        #ezmailing_record_list #campain_destinations li.ezmailing_list_item .ezmailing_mailing_lists_registration {
+                                            float: left;
+                                            margin-right: 1%;
+                                            width: 24%;
+                                            }
+											
+                                            #ezmailing_record_list #campain_destinations li.ezmailing_list_item .mailing_list_registrations_count {margin: 0;}
+                                            #ezmailing_record_list #campain_destinations li.ezmailing_list_item .mailing_list_registrations_count span {bottom: auto;}
+                                            
+                                        #ezmailing_record_list #campain_destinations li.ezmailing_list_item .flag {
+                                            float: right;
+                                            line-height: 4em;
+                                            text-transform: capitalize;
+                                            width: 15%;
+                                            }
+                                            
+                                    #ezmailing_record_list #campain_site_access li.ezmailing_list_item .url {
+                                            float: left;
+                                            width: 61%;
+                                            }
+											
+                                    #ezmailing_edit .inlineBlock .right_inlineBlock {
+                                        float: right;
+                                        width: 75%;
+                                        }
+										
+                                        #ezmailing_edit .inlineBlock .right_inlineBlock #campaign_content {
+                                            margin: 0;
+                                            padding: 0;
+                                            width: 100%;
+                                            }
+											
+                                            #ezmailing_edit .inlineBlock .right_inlineBlock #campaign_content td {
+                                                padding: 0 0 5px 0;
+                                                vertical-align: top;
+                                                }
+                                            #ezmailing_edit .radio_wrapper {
+                                                float: right;
+                                                width: 227px;
+                                                }
+												
+                                                #ezmailing_edit .radio_wrapper input[type="radio"] {float: left;}
+												
+                                                #ezmailing_edit .radio_wrapper label {
+                                                    float: left;
+                                                    margin: 0 60px 0 15px;
+                                                    padding: 0;
+                                                    white-space: nowrap;
+                                                    }
+													
+                                                #ezmailing_edit .radio_wrapper label#female_label {margin: 0 0 0 15px;}
+												
+                                            #store_record,
+                                            #edit_record {
+                                                background: url("../images/bg/bg_save_record.png") no-repeat scroll left top #2F2F2F;
+                                                padding: 0;
+                                                border-radius: 3px 3px 3px 3px; 
+                                                -moz-border-radius: 3px 3px 3px 3px; 
+                                                -webkit-border-radius: 3px 3px 3px 3px;
+                                                border: 1px solid #706C69;
+                                                color: #fff;
+                                                display: inline-block;
+                                                font-size: 1.166em;
+												line-height: 1em;
+                                                margin: 20px 0 0 0;
+                                                padding: 0;
+                                                text-align: left;
+                                                }
+												
+                                                #edit_record {background: url("../images/bg/bg_edit_news.png") no-repeat scroll left top #2F2F2F;}
+                                            .ezmailing_edit_list #store_record {margin-left: -20px;}
+                                                #store_record button,
+                                                #edit_record button {
+                                                    background: none repeat scroll 0 0 transparent;
+                                                    border: 0 none;
+                                                    color: #FFFFFF;
+                                                    font-family: arial;
+                                                    font-size: 1em;
+                                                    height: 31px;
+                                                    line-height: 1em;
+                                                    padding: 0 22px 0 44px;
+                                                    text-align: left;
+                                                    }
+
+                                    .sending_compaign {margin: 15px 0 0 0;}
+                                        .sending_compaign #canceling_compaign {
+                                            background: #F4F4F4;
+                                            border-radius: 3px 3px 3px 3px; 
+                                            -moz-border-radius: 3px 3px 3px 3px; 
+                                            -webkit-border-radius: 3px 3px 3px 3px;
+                                            margin-top: 10px;
+                                            padding: 20px 75px 15px 20px;
+											}
+											
+											.sending_compaign #canceling_compaign h2 {margin: 0 0 25px 0;}
+                                            
+                                            .sending_compaign #canceling_compaign ul {margin: 0;}
+                                                .sending_compaign #canceling_compaign ul li {
+                                                    font-size: 1.166em;
+                                                    list-style-type: none;
+                                                    }
+													
+                                                    .sending_compaign #canceling_compaign ul li span {                                                      
+                                                        border-radius: 3px 3px 3px 3px; 
+                                                        -moz-border-radius: 3px 3px 3px 3px; 
+                                                        -webkit-border-radius: 3px 3px 3px 3px;
+                                                        border: 1px solid #706C69;
+                                                        color: #fff;
+                                                        display: inline-block;
+														float: right;
+                                                        font-size: 1.166em;
+                                                        line-height: 1em;
+                                                        padding: 0;
+                                                        text-align: left;
+                                                        }
+													
+													.sending_compaign #canceling_compaign ul li#cancel_compaign span {background: url("../images/bg/bg_cancel_campaign_sending.png") no-repeat scroll left center #2F2F2F;}
+													
+                                                    .sending_compaign #canceling_compaign ul li#cancel_compaign span.button-disabled {
+                                                        background: url("../images/bg/bg_cancel_campaign_sending_off.png") no-repeat scroll left center #a9a9a9;
+                                                        border: 1px solid #C9C9C9;
+														}
+                                                    
+                                                    .sending_compaign #canceling_compaign ul li#cancel_sending span {background: url("../images/bg/bg_cancel_sending.png") no-repeat scroll left center #2F2F2F;}
+                                                    .sending_compaign #canceling_compaign ul li#cancel_sending span.button-disabled {
+                                                        background: url("../images/bg/bg_cancel_sending_off.png") no-repeat scroll left center #a9a9a9;
+                                                        border: 1px solid #C9C9C9;
+                                                        }
+														
+                                                        .sending_compaign #canceling_compaign ul li span button {
+															background: none;
+                                                            border: 0 none;
+                                                            color: #FFFFFF;
+                                                            font-family: arial;
+                                                            font-size: 1em;
+                                                            height: 31px;
+                                                            line-height: 1em;
+                                                            padding: 0 22px 0 44px;
+                                                            text-align: left;
+                                                            }
+                                                            
+                                                    .sending_compaign_steps table td {
+                                                        padding: 0;
+                                                        text-align: left;
+                                                        vertical-align: top;
+                                                        width: 170px;
+                                                        }      
+														
+                                                    .sending_compaign_steps table tr.buttons td {
+														padding-top: 10px;
+                                                        text-align: center;
+                                                        vertical-align: top;
+                                                        }
+														
+                                                        .sending_compaign_steps table tr.buttons td span {
+                                                            background: url("../images/bg/bg_sending_steps_on.png") no-repeat scroll left center #2F2F2F;
+                                                            border: 1px solid #706C69;
+                                                            border-radius: 3px 3px 3px 3px;
+                                                            -moz-border-radius: 3px 3px 3px 3px; 
+                                                            -webkit-border-radius: 3px 3px 3px 3px;
+                                                            color: #FFFFFF;
+                                                            display: inline-block;
+                                                            font-size: 1.166em;
+                                                            line-height: 1em;
+                                                            margin-bottom: 25px;
+                                                            padding: 0;
+                                                            text-align: center;
+                                                            }
+															
+                                                            .sending_compaign_steps table tr.buttons td span button {
+																background: none;
+                                                                border: 0 none;
+                                                                color: #FFFFFF;
+                                                                font-family: arial;
+                                                                font-size: 1em;
+                                                                height: 31px;
+                                                                line-height: 1em;
+                                                                padding: 0 15px;
+                                                                text-align: center;
+                                                                }
+														
+                                                        .sending_compaign_steps table tr.buttons td span.button-disabled {
+                                                            background: url("../images/bg/bg_sending_steps_off.png") no-repeat scroll left center #2F2F2F;
+                                                            border: 1px solid #c9c9c9;
+                                                            }
+															
+														.sending_compaign_steps table tr.buttons td div.resend_scheduled {
+															  padding: 0;
+															  }
+															  
+															  .sending_compaign_steps table tr.buttons td div.resend_scheduled p {
+															         font-size: 10px;
+															         padding-left: 0;
+															         }
+															         
+															         .sending_compaign_steps table tr.buttons td div.resend_scheduled p.actif {
+															                 color: #E46809;
+															                 }
+														
+                                                        .sending_compaign_steps table tr.buttons td p {
+																color: #a7a7a7;
+                                                                font-size: 1.166em;
+                                                                font-style: italic;
+                                                                margin: 0 0 10px;
+                                                                padding-left: 30px;
+                                                                text-align: left;
+                                                                }
+														
+                                                        .sending_compaign_steps table td.send_test img {float: right;}
+                                                        .sending_compaign_steps table td div {padding: 0 10px;}
+														
+                                                            .sending_compaign_steps table td div span.step_number {
+                                                                background: url("../images/bg/bg_step_number.gif") no-repeat right 21px ;
+                                                                color: #E46809;
+                                                                float: left;
+                                                                font-family: helvetica, arial,Sans-Serif;
+                                                                font-size: 2em;
+                                                                line-height: 1em;
+                                                                padding-right: 8px;
+                                                                }
+																
+                                                            .sending_compaign_steps table td div.off span.step_number {
+                                                                background: url("../images/bg/bg_step_number_off.gif") no-repeat right 21px ;
+                                                                color: #a7a7a7;
+                                                                }
+																
+                                                            .sending_compaign_steps table td div p.text {
+                                                                font-family: helvetica, arial,Sans-Serif;
+                                                                font-size: 1.166em;
+                                                                margin: 0 0 10px 30px;
+                                                                padding-top: 7px;
+                                                                }
+																
+                                                            .sending_compaign_steps table td div.off p.text {color: #a7a7a7;}
+                                                            .sending_compaign_steps table td div input#SendTestEmail {
+                                                                background: url("../images/bg/bg_send_test_email.png") no-repeat left #fff ;
+                                                                border: 1px solid #a8a8a8;
+                                                                border-radius: 4px 4px 4px 4px;
+                                                                -moz-border-radius: 4px 4px 4px 4px;
+                                                                -webkit-border-radius: 4px 4px 4px 4px;
+                                                                height: 19px;
+                                                                padding: 4px 4px  4px 33px;
+																width: 110px;
+                                                                }
+																
+                #ezmailing_content #ezmailing_edit #user_registrations {padding-bottom: 25px;}
+                    #user_registrations h3 {
+                        color: #2F3742;
+                        font-size: 1.5em;
+                        font-weight: normal;
+                        margin: 20px 0;
+                        }
+						
+                    #user_registrations #ezmailing_record_list {
+                        max-height: 450px;
+                        overflow: auto;
+                        margin: 0 5%;
+                        }
+                            #user_registrations ul {margin: 0 3% 0 0;}
+                                #user_registrations ul li.ezmailing_list_item {
+                                    background: url("../images/bg/bg_item_user_edit.png") no-repeat scroll left bottom transparent;
+                                    margin: 0 18px 20px 0;
+                                    }
+									
+                                .ezmailing_view_user #user_registrations ul li.ezmailing_list_item {border-right: 1px solid #B7B7B7;}   
+                                    #user_registrations ul li.ezmailing_list_item .registration_description {
+                                        float: left;
+                                        margin-right: 15%;
+                                        width: 50%;
+                                        }
+										
+                                        #user_registrations ul li.ezmailing_list_item .registration_description img {
+                                            float: right;
+                                            margin-top: 5px;
+                                            }
+											
+                                        #user_registrations ul li.ezmailing_list_item .registration_description p {
+                                            background: url("../images/pictos/clock.png") no-repeat scroll left center;
+                                            font-size: 1.166em;
+                                            margin: 0 0 5px;
+                                            padding: 5px 0 5px 30px;
+                                            }
+											
+                                        #user_registrations ul li.ezmailing_list_item .registration_description p.mailing_list_name {
+                                            background-image: url("../images/bg/bg_user_registrations_mailinglist.png");
+                                            color: #2f3742;
+                                            font-weight: bold;
+                                            }
+											
+                                            #user_registrations ul li.ezmailing_list_item .registration_description p span {float: right;}
+                                            #user_registrations ul li.ezmailing_list_item .registration_description p.mailing_list_name a {
+                                                color: #2f3742;
+                                                text-decoration: none;
+                                                }
+												
+                                            #user_registrations ul li.ezmailing_list_item .registration_description p.mailing_list_name a:hover {text-decoration: underline;}
+                                    #user_registrations ul li.ezmailing_list_item .registration_status {
+                                        float: left;
+                                        position: relative;
+                                        width: 33%;
+                                        }
+										
+                                        #user_registrations ul li.ezmailing_list_item .registration_status img {position: absolute;}
+                                        #user_registrations ul li.ezmailing_list_item .registration_status p {
+                                            font-size: 1.416em;
+                                            line-height: 1em;
+                                            padding: 15px 0 0 90px;
+                                            }
+											
+                                        #user_registrations ul li.ezmailing_list_item .registred p {color: #075670;}
+                                        #user_registrations ul li.ezmailing_list_item .unregistred p {color: #D1C9A7;}
+
+                                        
+                                    .jspVerticalBar {width: 13px;}
+                                        .jspVerticalBar .jspTrack {
+                                            background: url("../images/bg/bg_jsp_track.gif") repeat-y left #fff ;
+                                            cursor: pointer;
+                                            }
+											
+                                            .jspVerticalBar .jspTrack .jspDrag {
+                                                background: #424242;
+                                                border-radius: 4px 4px 4px 4px;
+                                                -moz-border-radius: 4px 4px 4px 4px;
+                                                -webkit-border-radius: 4px 4px 4px 4px;
+                                                }
+												
+                                #ezmailing_record_list .jspHorizontalBar {display: none !import\7;}
+                        
+                        #user_edit_description .ezmailing_edit_right {float: left;}
+                        
+                            #user_edit_description .block label {width: 40%}
+                            #user_edit_description .block p {
+                                color: #2F3742;
+                                float: left;
+                                }
+								
+                        #mailing_lists_registrations {
+                            margin-top: 20px;
+                            padding: 20px 0 0;
+                            }
+							
+                         #mailing_lists_registrations.mailing_lists_registrations_edit {border-top: 1px solid #DCDCDC;}   
+                            #mailing_lists_registrations h3 {
+                                color: #2F3742;
+                                font-size: 1.5em;
+                                font-weight: normal;
+                                margin: 0 0 20px;
+                                padding: 0;
+                                }
+								
+                            #mailing_lists_registrations #ezmailing_record_list  {
+                                    margin: 0;
+                                    max-height: 450px;
+                                    overflow: auto;
+                                    }
+									
+                                #mailing_lists_registrations ul  {
+                                    margin: 0 1% 0 0;
+                                    margin: 0 2% 0 0\9;
+                                    }
+									
+                                    #mailing_lists_registrations ul li.ezmailing_list_item  {
+                                        background: url("../images/bg/bg_item_user_edit.png") no-repeat scroll left bottom transparent;
+                                        margin: 0 18px 20px 0;
+                                        padding: 15px 20px;
+                                        }
+										
+                                        #mailing_lists_registrations ul li.ezmailing_list_item .mailing_lists_registration {
+                                            float: left;
+                                            line-height: 1.094em;
+                                            margin-right: 2%;
+                                            padding-top: 10px;
+                                            width: 35%;
+                                            }
+											
+                                            #mailing_lists_registrations ul li.ezmailing_list_item .mailing_lists_registration a {
+                                                color: #2F3742;
+                                                font-size: 1.094em;
+                                                font-weight: bold;
+                                                text-decoration: none;
+                                                }
+												
+                                            #mailing_lists_registrations ul li.ezmailing_list_item .mailing_lists_registration a:hover {text-decoration: underline;}
+                                            #mailing_lists_registrations ul li.ezmailing_list_item .mailing_lists_registration img {
+                                                float: right;
+                                                margin-right: 5px;
+                                                }
+												
+                                        #mailing_lists_registrations ul li.ezmailing_list_item .mailing_lists_registration_date {
+                                            float: left;
+                                            margin-right: 0%;
+                                            position: relative;
+                                            width: 30%;
+                                            }
+											
+                                            #mailing_lists_registrations ul li.ezmailing_list_item .mailing_lists_registration_date p {
+                                                font-size: 1.094em;
+                                                line-height: 1em;
+                                                margin: 0 33px 10px 0;
+                                                }
+												
+                                            #mailing_lists_registrations ul li.ezmailing_list_item .mailing_lists_registration_date a {
+                                                position: absolute;
+													top: 12px;
+													right: 0;
+													}
+													
+                                        #mailing_lists_registrations ul li.ezmailing_list_item .mailing_lists_registration_state {
+                                            float: left;
+                                            width: 10%;
+                                            }
+											
+                                            #mailing_lists_registrations ul li h3 {font-size: 1.562em;}
+                                            
+                                    #registrations_actions_submit {
+                                        border-top: 1px solid #DCDCDC;
+                                        margin-top: 25px;
+                                        padding: 35px 0;
+                                        }
+										
+                                    #ezmailing_content .registrations_actions_submit {
+                                        border-top: 0 none;
+                                        margin: 0;
+                                        padding: 0 0 50px;
+                                        }
+										
+                                        #registrations_actions_submit ul {margin: 0;}
+                                        #registrations_actions_submit ul li {
+                                            border-radius: 3px 3px 3px 3px; 
+                                            -moz-border-radius: 3px 3px 3px 3px; 
+                                            -webkit-border-radius: 3px 3px 3px 3px;
+                                            border: 1px solid #706C69;
+											color: #fff;
+                                            display: block;
+                                            float: left;
+                                            font-size: 1.166em;
+											ine-height: 1em;
+                                            list-style-type: none;
+											margin: 0 20px 0 0;
+                                            padding: 0;
+                                            text-align: left;
+                                            }
+											
+                                        #registrations_actions_submit ul li.registrations_remove_selectd {
+                                            background: url("../images/bg/bg_ezmailing_delete_off.png") #C9C9C9 no-repeat scroll left center;
+                                            border-color: #C9C9C9;
+                                            }
+											
+                                        #registrations_actions_submit ul li.registrations_remove_selectd.on {
+                                            background: url("../images/bg/bg_ezmailing_delete.png") #2f2f2f no-repeat scroll left center;
+                                            border-color: #706C69;
+                                            }
+											
+                                        #registrations_actions_submit ul li#registrations_export {
+                                            background: url("../images/bg/bg_export_campaign.png") #C9C9C9 no-repeat scroll left center;
+                                            border-color: #C9C9C9;
+                                            }
+
+                                        #registrations_actions_submit ul li#remove_mailinglist {
+                                            background: url("../images/bg/bg_remove_record.png") #C9C9C9 no-repeat scroll left center;
+                                            border-color: #C9C9C9;
+                                            }
+
+                                        #registrations_actions_submit ul li#edit_mailing_lists {background: url("../images/bg/bg_edit_news.png") #2f2f2f no-repeat scroll left center;}
+                                            #registrations_actions_submit ul li button {                            
+                                                background: none repeat scroll 0 0 transparent;
+												border: 0 none;
+                                                color: #FFFFFF;
+                                                font-family: arial;
+                                                font-size: 1em;
+                                                height: 31px;
+                                                line-height: 0.9em;
+                                                padding: 0 22px 0 44px;
+                                                text-align: left;
+                                                }
+												
+                                             #registrations_actions_submit ul li a {                            
+                                                background: none repeat scroll 0 0 transparent;
+                                                border: 0 none;
+                                                color: #FFFFFF;
+                                                display: block;
+                                                font-family: arial;
+                                                font-size: 1em;
+                                                height: 23px;
+                                                line-height: 1em;
+                                                padding: 8px 22px 0 44px;
+                                                text-align: left;
+                                                text-decoration: none;
+												}
+
+    div.pagenavigator {
+        background: url("../images/bg/bg_pagination.gif") #fff repeat-x scroll left top;
+        margin: 0 0 30px 0;
+        padding: 5px 0;
+        }
+
+        div.pagenavigator img.disabled {
+            opacity: 0.35;
+            filter : alpha(opacity=35);
+            }
+
+        div.pagenavigator span.previous {
+            display: inline-block;
+            float: none;
+            margin-right: 30px;
+            }
+
+        div.pagenavigator span.next {
+            display: inline-block;
+            float: none;
+            margin-left: 30px;
+            }
+
+        div.pagenavigator span.pages span.other, div.pagenavigator span.pages span.current {
+            background: none;
+            font-size: 1.0937em;
+            margin-left: 1px;
+            margin-right: 1px;
+            border: 0 none;
+            border-radius: 0;
+            -moz-border-radius: 0;
+            -webkit-border-radius: 0;
+            display: inline-block;
+            padding: 0.6em 0.5em 0.3em;
+            text-decoration: none;
+            }
+			
+        div.pagenavigator span.pages span.current {
+            background-color: #E46809;
+            color: #FFF; 
+            }
+			
+        div.pagenavigator a {
+            color: #777;
+            text-decoration: none;
+            }
+			
+    #file_transform {margin: 25px 0 0 20px;}
+        #file_transform #filewrapper {
+            background: url("../images/bg/bg_file_transform_left.png") #fff no-repeat scroll left top;
+            color: #434343;
+            cursor: pointer;
+            display: none;
+            height: 27px;
+            float: left;
+            line-height: 27px;
+            margin-right: 25px;
+            overflow: hidden;
+            padding-left: 15px;
+            text-decoration: none;
+            }
+			
+            #file_transform #filewrapper span {
+                background: url("../images/bg/bg_file_transform_right.png") #fff no-repeat scroll right top;
+                display: inline-block;
+                height: 27px;
+                line-height: 27px;
+                padding-right: 60px;
+                }
+				
+        #file_transform #file_name {
+            display: none;
+            line-height: 27px;
+            }
+			
+/*dashboard*/
+.emailing_dashboard_item h2 {
+	color: #a7a7a7;
+	font-size: 2em;
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0 0 10px;
+	padding: 15px 0 20px 80px;
+	}
+	
+	.emailing_dashboard_item {
+		border-bottom: 1px solid #DCDCDC;
+		margin: 0 0 15px 0;
+    	padding-bottom: 35px;
+    	}
+
+	#last_sending_states h2 {background: url("../images/bg/bg_dashboard_sending_states.png") #fff no-repeat scroll 3px top;}
+	.emailing_dashboard_item #last_sending_states_graph {
+		margin: 0 0 20px 0;
+		text-align: center;
+		}
+
+	.emailing_dashboard_item #last_sending_states_stats {
+		background: #2f3742;
+		border-radius: 3px 3px 3px 3px; 
+	    -moz-border-radius: 3px 3px 3px 3px; 
+	    -webkit-border-radius: 3px 3px 3px 3px;
+	    padding: 17px 17px 17px 0;
+		}
+
+		.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values {
+			float: left;
+		    margin: 0 1% 0 0;
+		    width: 49%;
+			}
+
+			.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_total {margin: 0 0 10px 0;}
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_total .value {
+					background: url("../images/bg/bg_last_sending_states_stats_values_style1.png") #2f3742 no-repeat scroll right top;
+					color: #2F3742;
+				    float: left;
+				    font-size: 4.166em;
+				    font-weight: bold;
+				    height: 35px;
+				    line-height: 0.8em;
+				    padding: 0 3% 0 0;
+				    text-align: right;
+				    width: 73%;
+					}
+
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_total .text {
+					color: #E46809;
+				    float: left;
+				    font-size: 2.5em;
+				    font-weight: bold;
+				    height: 35px;
+				    padding: 0 0 0 1%;
+				    line-height: 1.6em;
+				    width: 22%;
+					}
+
+			.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_received {margin: 0 0 10px 0;}
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_received .value {
+					background: url("../images/bg/bg_last_sending_states_stats_values_style2.png") #2f3742 no-repeat scroll right top;
+					color: #2F3742;
+				    float: left;
+				    font-size: 3.75em;
+				    font-weight: bold;
+				    height: 35px;
+				    line-height: 0.889em;
+				    padding: 0 3% 0 0;
+				    text-align: right;
+				    width: 57%;
+					}
+
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_received .text {
+					color: #6e99a2;
+				    float: left;
+				    font-size: 2.333em;
+				    height: 30px;
+				    padding: 5px 0 0 1%;
+				    line-height: 1.357em;
+				    width: 38%;
+					}
+				
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_open {margin: 0 0 10px 0;}
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_open .value {
+					background: url("../images/bg/bg_last_sending_states_stats_values_style1.png") #2f3742 no-repeat scroll right top;
+					color: #2F3742;
+				    float: left;
+				    font-size: 2.75em;
+				    font-weight: bold;
+				    height: 35px;
+				    line-height: 1.4545em;
+				    padding: 0 3% 0 0;
+				    text-align: right;
+				    width: 47%;
+					}
+
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_open .text {
+					color: #E46809;
+				    float: left;
+				    font-size: 2em;
+				    height: 30px;
+				    line-height: 1.833em;
+				    padding: 5px 0 0 1%;
+				    width: 48%;
+					}
+					
+					.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_clicked {margin: 0 0 10px 0;}
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_clicked .value {
+					background: url("../images/bg/bg_last_sending_states_stats_values_style2.png") #2f3742 no-repeat scroll right top;
+					color: #2F3742;
+				    float: left;
+				    font-size: 2.166em;
+				    font-weight: bold;
+				    height: 35px;
+				    line-height: 2em;
+				    padding: 0 3% 0 0;
+				    text-align: right;
+				    width: 35%;
+					}
+
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_clicked .text {
+					color: #6E99A2;
+				    float: left;
+				    font-size: 1.666em;
+				    height: 30px;
+				    line-height: 2em;
+				    padding: 5px 0 0 1%;
+				    width: 60%
+					}
+				
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_bounce .value {
+					background: url("../images/bg/bg_last_sending_states_stats_values_style1.png") #2f3742 no-repeat scroll right top;
+					color: #2F3742;
+				    float: left;
+				    font-size: 1.5em;
+				    font-weight: bold;
+				    height: 35px;
+				    line-height: 3.111em;
+				    padding: 0 3% 0 0;
+				    text-align: right;
+				    width: 21%;
+					}
+
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_values #last_sending_states_stats_bounce .text {
+					color: #E46809;
+				    float: left;
+				    font-size: 1.1666em;
+				    height: 30px;
+				    line-height: 3.5em;
+				    padding: 5px 0 0 1%;
+				    width: 74%;
+					}
+
+		.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_description {
+			color: #fff;
+			float: left;
+			font-size: 1.5em;
+			padding: 30px 0 0 0;
+			width: 50%;
+			}
+
+			.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_description p {
+				line-height: 1.25em;
+				margin: 0 0 30px 0;
+				}
+
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_description p strong {
+					color: #e46809;
+					font-size: 1.333em;
+					font-weight: normal;
+					}
+
+				.emailing_dashboard_item #last_sending_states_stats #last_sending_states_stats_description p span {color: #e46809;}
+		
+
+		#dashboard_campaigns h2 {background: url("../images/bg/bg_dashboard_waiting_campaigns.png") no-repeat scroll 3px top #FFFFFF;}
+		#dashboard_campaigns .dashboard_record_list ul {margin: 0;}
+			#dashboard_campaigns .dashboard_record_list ul li {
+				background: url("../images/bg/bg_news_item.png") no-repeat scroll left bottom;
+				border-radius: 4px 4px 4px 4px; 
+				-moz-border-radius: 4px 4px 4px 4px; 
+				-webkit-border-radius: 4px 4px 4px 4px;
+				border-top: 1px solid #f8f8f8;
+				list-style-type: none;
+				margin: 5px 0 0 0;
+				padding: 15px 20px 18px 20px;
+				position: relative;
+				}
+				#dashboard_campaigns .dashboard_record_list ul li .ezmailing_user_email {
+					float: left;
+					margin: 0 2% 0 0;
+    				min-height: 66px;					
+				    padding: 0;
+				    width: 58%;
+					}
+					#dashboard_campaigns .dashboard_record_list ul li .ezmailing_user_email h3 {
+						font-size: 1.5em;
+					    font-weight: normal;
+					    line-height: 1em;
+					    margin: 0.5em 0 0.2em;
+						}
+						#dashboard_campaigns .dashboard_record_list ul li .ezmailing_user_email h3 a {
+							color: #E46809;
+						    text-decoration: underline;
+							}
+						#dashboard_campaigns .dashboard_record_list ul li .ezmailing_user_email h3 a:hover {text-decoration: none;}
+						
+					#dashboard_campaigns .dashboard_record_list ul li .ezmailing_user_email h4 {
+						color: #424242;
+					    font-size: 1.166em;
+					    font-weight: normal;
+					    line-height: 1.166em;
+					    margin: 0;
+						}	
+				#dashboard_campaigns .dashboard_record_list ul li .ezmailing_mailing_list {
+					float: left;
+				    margin: 0;
+				    padding: 0;
+				    width: 40%
+					}
+					#dashboard_campaigns .dashboard_record_list ul li .ezmailing_mailing_list p.registration_date {
+						font-size: 1.166em;
+					    line-height: 1em;
+					    margin: 0 0 5px;
+					    padding: 5px 0 5px 33px;
+					    position: relative;
+						}
+						#dashboard_campaigns .dashboard_record_list ul li .ezmailing_mailing_list p.registration_date a {	
+						    position: absolute;
+						    	top: 0;
+						    	left: 0;
+							}
+						#dashboard_campaigns .dashboard_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item {	
+						    background: url("../images/bg/bg_mailing_list.png") no-repeat scroll left top transparent;
+						    color: #000000;
+						    font-size: 1.166em;
+						    font-weight: bold;
+						    line-height: 1em;
+						    margin: 0;
+						    padding: 5px 0 5px 32px;
+							}
+							#dashboard_campaigns .dashboard_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item img {	
+							    float: right;
+    							margin: 0 5px;
+								}
+							#dashboard_campaigns .dashboard_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item p {	
+							    font-size: 1em;
+								margin: 0;
+								}
+								#dashboard_campaigns .dashboard_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item p a {	
+								    color: #2F3742;
+									font-weight: normal;
+									text-decoration: none;
+									}
+								#dashboard_campaigns .dashboard_record_list ul li .ezmailing_mailing_list .ezmailing_mailing_list_item p a:hover {text-decoration: underline;}
+								
+		#dashboard_mailing_lists h2 {background: url("../images/bg/bg_dashboard_mailinglists.png") no-repeat scroll 3px top #FFFFFF;}
+		
+	#dashboard_mailing_lists {
+		border-bottom: 0 none;
+		margin: 0;
+		}
+		#dashboard_mailing_lists #dashboard_mailing_lists_registrations_header {
+			margin: 0 0 10px;
+			padding: 0 15px;
+			}
+		#dashboard_mailing_lists #dashboard_mailing_lists_registrations_header div {
+			float: left;
+			margin: 0 2% 0 0;
+			width: 48%;
+			}
+		#dashboard_mailing_lists #dashboard_mailing_lists_registrations_header div.clear {
+		    float: none;
+		    margin: 0;
+		    width: 100%;
+			}
+			#dashboard_mailing_lists #dashboard_mailing_lists_registrations_header div h3 {
+			    color: #A7A7A9;
+			    font-size: 1.5em;
+			    font-weight: normal;
+			    line-height: 1em;
+			    margin: 0;
+			    padding: 18px 0 19px 73px;
+			    position: relative;
+				}
+				#dashboard_mailing_lists #dashboard_mailing_lists_registrations_header div h3 img {			    
+				    position: absolute;
+				    	top: 0;
+				    	left: 0;
+					}
+		#dashboard_mailing_lists #dashboard_mailing_lists_registrations {
+			margin: 0 15px;
+			max-height: 332px;
+			overflow: auto;
+			}
+		#dashboard_mailing_lists .dashboard_record_list {
+			float: left;
+			margin: 0 2% 0 0;
+			width: 48%;
+			}
+			#dashboard_mailing_lists .dashboard_record_list ul {margin: 0;}
+				#dashboard_mailing_lists .dashboard_record_list ul li {
+					background: url("../images/bg/bg_news_item.png") no-repeat scroll left bottom;
+					border-radius: 4px 4px 4px 4px; 
+					-moz-border-radius: 4px 4px 4px 4px; 
+					-webkit-border-radius: 4px 4px 4px 4px;
+					border-top: 1px solid #f8f8f8;
+					list-style-type: none;
+					margin: 5px 0 0 0;
+					padding: 15px;
+					}
+
+					#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_user_email {
+						float: left;
+					    margin: 0 2% 0 0;
+					    width: 75%;
+						}
+						#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_user_email h3 {
+							font-size: 1.5em;
+						    font-weight: normal;
+						    line-height: 1em;
+						    margin: 0.5em 0 0.2em;
+							}
+							#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_user_email h3 a {
+								color: #E46809;
+							    text-decoration: underline;
+								}
+							#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_user_email h3 a:hover {text-decoration: none;}
+							
+						#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_user_email h4 {
+							color: #434343;
+						    font-size: 1.166em;
+						    font-weight: normal;
+						    line-height: 1.166em;
+						    margin: 0;
+							}
+					#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_mailing_list {
+						float: left;
+						margin: 0;
+
+
+	    				width: 23%;
+						}
+						#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_mailing_list p {
+							float: left;
+							margin: 0;
+							position: relative;
+							text-elign: left;
+							width: 25px;
+							zoom: 1;
+							}
+						#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_mailing_list p:first-child {margin: 0 10px 0 0;}
+						#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_mailing_list p a {
+							display: block;
+							float: left;
+							text-decoration: none;
+							}
+						#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_mailing_list p .ezmailing_tooltip {
+							background-image: url("../images/bg/bg_tooltip2.png");					  
+						    top: -55px;
+						    right: auto;
+						    left: -25px;
+						    padding-bottom: 10px;
+						    z-index: 1000;
+							}
+						#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_mailing_list p:first-child .ezmailing_tooltip {padding-bottom: 0;}
+							#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_mailing_list p .ezmailing_tooltip a {
+								color: #fff;
+							    display: inline-block;
+							    font-size: 1em;
+							    line-height: 1.5em;
+							    text-decoration: underline;		    
+								}
+							#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_mailing_list p .ezmailing_tooltip a:hover {text-decoration: none;}
+							#dashboard_mailing_lists .dashboard_record_list ul li .ezmailing_mailing_list p .ezmailing_tooltip img {
+								float: right;
+	    						margin-right: 5px;			    
+								}
+/*Statistics*/
+.statistics_container #ezmailing_content h2 {
+	background: url("../images/bg/bg_dashboard_waiting_campaigns.png") no-repeat scroll 3px top #FFFFFF;
+	color: #A7A7A7;
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0 0 10px;
+    padding: 15px 0 20px 70px;
+    }
+    
+.statistics_container #ezmailing-controls-tabs {
+	background: #F5F5F5;
+    padding: 0 15px;
+    }
+	.statistics_container #ezmailing-controls-tabs ul.tabs li {
+		float: left;
+		width: 20%;
+	    }
+	    
+	    .statistics_container #ezmailing-controls-tabs ul.tabs li a {
+			background: url("../images/bg/bg_node_tab_stats_off.gif") repeat-x scroll left top #ebebeb;
+			border-color: #F0F0F0 #ECECEC #E5E5E5 #F0F0F0;
+		    border-style: solid;
+		    border-width: 1px;
+		    color: #424242;
+			display: block;
+			font-size: 1.083em;
+		    margin: 0;
+		    min-height: 10px;
+		    padding: 10px;
+		    }
+		    
+	    .statistics_container #ezmailing-controls-tabs ul.tabs li.selected a {
+	    	background-image: url("../images/bg/bg_node_tab_stats_on.gif");
+	    	padding: 8px 0 12px;
+	    	}
+	    	
+	    .statistics_container #ezmailing-controls-tabs ul.tabs li a:hover {padding: 8px 0 12px;}
+	    
+	    .statistics_container #ezmailing-controls-tabs .tabs-content .tab-content {
+	    	background: #F5F5F5;
+	    	border: 0 none;
+	    	height: auto;
+    		overflow: auto;
+	    	}
+	    	.statistics_container #stat_description {
+		    	background: url("../images/bg/bg_news_item.png") no-repeat scroll left bottom;
+	            border-radius: 4px 4px 4px 4px; 
+	            -moz-border-radius: 4px 4px 4px 4px; 
+	            -webkit-border-radius: 4px 4px 4px 4px;
+	            border-top: 1px solid #f8f8f8;
+	            list-style-type: none;
+	            margin: 5px 0 50px 0;
+	            padding: 15px 30px;
+		    	}
+		    	.statistics_container #number_of_opened_mails {
+			    	color: #424242;
+				    font-size: 1.5em;
+				    margin: 0 0 10px 0;
+			    	}
+		    	
+		    	.statistics_container #number_of_opened_mails span {
+			    	color: #E46809;
+	    			font-size: 1.667em;
+			    	}
+		    	.statistics_container #ctor {
+			    	color: #424242;
+				    font-size: 1.166em;
+				    margin: 0 0 10px;
+			    	}
+			    	.statistics_container #ctor span {color: #E46809;}
+		    	
+    	.statistics_container #ezmailing_record_list h4 {
+    		color: #A7A7A7;
+		    font-size: 2em;
+		    font-weight: normal;
+		    line-height: 1em;
+		    margin: 15px 0 0 20px;
+    		}
+    	
+    	.statistics_container #ezmailing_record_list ul {
+    		margin: 0 0 50px;
+    		padding: 25px 0 0;
+    		}
+	    	
+    		.statistics_container #ezmailing_record_list ul li {
+	    		margin: 0 0 5px 0;
+				padding: 15px 20px 18px;
+	    		}
+	    		.statistics_container #ezmailing_record_list ul li .url {
+		    		float: left;
+				    margin-right: 2%;
+				    width: 55%;
+				    word-break: break-all;
+		    		}
+		    		
+	    		.statistics_container #ezmailing_record_list ul li .click_number {
+		    		float: left;
+				    margin-right: 2%;
+				    width: 20%;
+		    		}
+		    		
+		    		.statistics_container #ezmailing_record_list ul li .click_number p {
+			    		color: #434343;
+					    font-size: 1.5em;
+					    line-height: 2.667em;
+					    margin: 0;
+			    		}
+			    		
+			    		.statistics_container #ezmailing_record_list ul li .click_number p span {
+				    		color: #E46809;
+						    font-size: 2.667em;
+						    margin-right: 10px;
+						    position: relative;
+				    		}
+	    		.statistics_container #ezmailing_record_list ul li .click_persent {
+		    		float: left;
+				    width: 20%;
+		    		}
+		    		
+		    		.statistics_container #ezmailing_record_list ul li .click_persent p {
+			    		color: #434343;
+					    font-size: 1.5em;
+					    line-height: 2.667em;
+					    margin: 0;
+			    		}
+			    		
+			    		.statistics_container #ezmailing_record_list ul li .click_persent p span {
+				    		color: #E46809;
+						    font-size: 2.667em;
+						    margin-right: 10px;
+						    position: relative;
+				    		}
+				    		

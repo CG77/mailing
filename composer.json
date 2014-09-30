@@ -1,0 +1,33 @@
+{
+    "name": "mailing/mailingbundle",
+    "description": "Mailing Bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Novactive",
+            "homepage": "http://www.novactive.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/CG77/mailing.git"
+        }
+    ],    
+    "require": {
+        "ezsystems/ezpublish-kernel": "*",
+        "sensio/framework-extra-bundle": "2.3.*",
+        "novactive/novaextrabundle": "1.2",
+        "novactive/eznovaextrabundle": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {"Mailing\\NewsletterBundle": ""}
+    },
+    "target-dir": "Mailing/NewsletterBundle",
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "v1.0"
+        }
+    }
+}

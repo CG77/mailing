@@ -1,0 +1,76 @@
+{% set validItems = pageService.getValidBlockItems( block ) %}
+{% set validContentInfoItems = pageService.getValidBlockItemsAsContentInfo( block ) %}
+{% if validItems|length > 0 %}
+<table border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+            <td>
+                <h2 style="margin:0">
+                    <img width="420" border="0" style="display:block" alt="Actualités" src="http://{{ app.request.host }}{{ asset('bundles/cgnewsletter/images/actu_header.png') }}">
+                </h2>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img width="420" height="14" border="0" style="display:block" alt="" src="http://{{ app.request.host }}{{ asset('bundles/cgnewsletter/images/spacer.png') }}">
+            </td>
+        </tr>
+        <tr bgcolor="#ebf7ed">
+            <td valign="top">
+                <table border="0" cellspacing="5" cellpadding="5">
+                    <tbody>
+                    {% for ContentInfoItem in validContentInfoItems %}
+                        {% set content = eznova_content_by_contentinfo( ContentInfoItem ) %}
+                        {% set contentInfo = content.versionInfo.contentInfo %}
+                        <tr>
+                            <td width="89" valign="top">
+                                {% if not ez_is_field_empty(content,'image') %}
+                                    <a target="_blank" href="{{ path( "ez_urlalias", {"locationId": contentInfo.mainLocationId} ) }}">
+                                        {{ ez_render_field( content, "image", {
+                                        "template" : "CGNewsletterBundle::content_fields.html.twig",
+                                        "parameters" : { "alias" : "newsletter_actus", "host" : app.request.host }})
+                                        }}
+                                    </a>
+                                {% endif %}
+                            </td>
+                            <td valign="top">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                    <tr>
+                                        <td valign="top">
+                                            <h4 style="padding:0 20px 0 0;margin:0">
+                                                <font size="3" face="Arial, Helvetica, sans-serif" style="font-family:Arial,Helvetica,sans-serif;color:#39b14a;font-size:16px;font-weight:bold">
+                                                    <a target="_blank" style="color:#39b14a" href="{{ path( "ez_urlalias", {"locationId": contentInfo.mainLocationId} ) }}">
+                                                        {{ ez_field_value( content, "title" ) }}
+                                                    </a>
+                                                </font>
+                                            </h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <p style="padding:0 20px 0 0;margin:8px 0 0 0">
+                                                <font face="Arial, Helvetica, sans-serif" color="#000000" style="font-family:Arial,Helvetica,sans-serif;color:#000000;font-size:12px;line-height:160%">
+                                                    {{ ez_render_field(content, 'introduction',{ 'container':true }) }}
+                                                </font>
+                                            </p>
+                                            <p style="padding:0 20px 0 0;margin:16px 0 0 0">
+                                                <font size="1" face="Arial, Helvetica, sans-serif" color="#39b14a" style="font-family:Arial,Helvetica,sans-serif;color:#39b14a;font-size:10px;text-transform:uppercase">
+                                                    <a target="_blank" style="color:#39b14a;text-decoration:underline" href="{{ path( "ez_urlalias", {"locationId": contentInfo.mainLocationId} ) }}">
+                                                        + Lire la suite
+                                                    </a>
+                                                </font>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                 </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+</tbody></table>
+{% endif %}

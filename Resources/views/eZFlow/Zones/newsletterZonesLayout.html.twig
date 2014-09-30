@@ -1,0 +1,40 @@
+<table  width="100%" border="0" bgcolor="#f7f7f7" align="left" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td>
+                {#{% if zones[0].blocks is not empty %}#}
+                {#{% if zones[0].blocks %}#}
+                {% for block in zones[0].blocks %}
+                    {{ render( controller( "ez_page:viewBlock", {'block': block, 'viewType': block.type} ) ) }}
+                {% endfor %}
+                {#{% endif %}#}
+                {#{% endif %}#}
+            </td>
+            <td width="200" valign="top">
+                {#{% if zones[1].blocks is not empty %}#}
+                {#{% if zones[1].blocks %}#}
+                {% for block in zones[1].blocks %}
+                    {{ render( controller( "ez_page:viewBlock", {'block': block, 'viewType': block.type} ) ) }}
+                {% endfor %}
+                {#{% endif %}#}
+                {#{% endif %}#}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img height="21" style="display:block" alt="" src="http://{{ app.request.host }}{{ asset('bundles/cgnewsletter/images/spacer.png') }}">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                {#{% if zones[2].blocks is not empty %}#}
+                {#{% if zones[2].blocks %}#}
+                {% for block in zones[2].blocks %}
+                    {{ render( controller( "ez_page:viewBlock", {'block': block, 'viewType': block.type} ) ) }}
+                {% endfor %}
+                {#{% endif %}#}
+                {#{% endif %}#}
+
+            </td>
+    </tbody>
+</table>

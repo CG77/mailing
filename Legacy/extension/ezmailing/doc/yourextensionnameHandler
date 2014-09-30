@@ -1,0 +1,73 @@
+<?php
+
+use Novactive\eZPublish\Extension\eZMailing\Core\Models\MailingList;
+use Novactive\eZPublish\Extension\eZMailing\Core\Models\Campaign;
+use Novactive\eZPublish\Extension\eZMailing\Core\Utils\AutomatedHandler;
+
+class yourextensionnameAutoCampaignHandler extends AutomatedHandler {
+
+    /**
+     * Get Campaign
+     * @return array
+     */
+    public function getCampaigns() {
+
+
+        // here make some tests to create or not the campaign
+        // in this case return array();
+        // the concept of this handler is to automatically create campaign depending your own rules
+
+        /* Dynamic content Campaign */
+
+        // Content-Type
+        $content_type = Campaign::DYN_CONTENT;
+
+        // node_id
+        $node = eZContentObjectTreeNode::fetch( 68 );
+        $node_id = $node->attribute( 'node_id' );
+        $content = null;
+
+        /* Static content Campaign
+        // Content-Type
+        $content_type = Campaign::STATIC_CONTENT;
+
+        // content
+        $content = "<html><head></head><body>CONTENT</body></html>";
+        $node_id = null;
+        */
+
+        // set the subject
+        $subject = $node->attribute( 'name');
+
+        // set the description
+        $description = "La description de la newsletter ! ";
+
+        // set the sender name
+        $sender_name = "Sender Name";
+
+        // set the sender mail
+        $sender_email = "senderName@hostanme.com";
+
+        // set and conf the date
+        $oSendingDate = new DateTime( '2010-01-01 15:25:22' );
+        $sending_date = $oSendingDate->getTimestamp();
+
+        // set the destination
+        $destinations = array( MailingList::novaFetchByKeys( 66 ), MailingList::novaFetchByKeys( 67 ) );
+
+        // set the siteaccess
+        $siteaccess = "iphone";
+
+        // Email report
+        $report_email = "report@email.com";
+
+
+        $item = $this->createCampaign( $subject, $description, $sender_name, $sender_email, $sending_date, $destinations, $siteaccess, $node_id, $content, $content_type, $report_email );
+
+
+        // Warning return an array (even if only one campaign is created
+        return array( $item );
+    }
+
+}
+

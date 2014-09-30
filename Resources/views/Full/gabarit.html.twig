@@ -1,0 +1,36 @@
+{% extends "CGNewsletterBundle:Layout:layout.html.twig" %}
+{% block content %}
+    <table width="634" border="0" align="center" cellspacing="5" cellpadding="0">
+    <tbody>
+    <tr>
+        <td>
+            {{ ez_field_value(content,'title') }}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            {{ ez_render_field( content,'intro',{'container':true} ) }}
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            {{ ez_render_field(content,'ezflow') }}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img height="21" style="display:block" alt="" src="http://{{ app.request.host }}{{ asset('bundles/cgnewsletter/images/spacer.png') }}">
+        </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td colspan="2" align="right">
+        {% block footer %}
+            {% include 'CGNewsletterBundle:Common:footer.html.twig' %}
+        {% endblock %}
+        </td>
+    </tr>
+    </tbody>
+</table>
+{% endblock %}

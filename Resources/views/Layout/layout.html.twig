@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="noJS" lang="fr"><!--<![endif]-->
+    <head>
+    </head>
+    <body>
+        <div style="margin:0;padding:0;background:#ffffff url('{{ asset('bundles/cgnewsletter/images/bg.jpg') }}') repeat-y 50% 0">
+            <table width="700" border="0" align="center" cellspacing="0" cellpadding="0">
+                <tbody>
+                    {% block header %}
+                        {% include 'CGNewsletterBundle:Common:header.html.twig' %}
+                    {% endblock %}
+                    <tr>
+                        <td width="20">&nbsp;</td>
+                        <td>{% block content %}{% endblock %}</td>
+                        <td width="20">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <img width="700" height="34" border="0" style="display:block" alt="" src="http://{{ app.request.host }}{{  asset('bundles/cgnewsletter/images/spacer.png') }}">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#cccccc" colspan="3">
+                            <img width="700" height="1" border="0" style="display:block" alt="" src="http://{{ app.request.host }}{{  asset('bundles/cgnewsletter/images/spacer.png') }}">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+</html>

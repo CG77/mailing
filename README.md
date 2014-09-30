@@ -1,1 +1,2 @@
-Mailing bundle
+Mailing
+=========

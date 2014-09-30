@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+.ezmailingregistration ul {
+    list-style-type: none;
+    }
+
+.ezmailingregistration input.box, textarea.box {
+    width: auto;
+    }
