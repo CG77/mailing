@@ -1,89 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72dc757e-abb9-441d-8ea1-7c65bc6bf1de" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Projects\ezmailing\mailing\Legacy\extension\ezmailing\LICENSE" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/AbstractGraph.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/AbstractGraph.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/Audit.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/Audit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/Automate.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/Automate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/AutomatedHandler.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/AutomatedHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/BounceBack.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/BounceBack.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Browser.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Browser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/Browser.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/Browser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/Campaign.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/Campaign.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Functions/Collection.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Functions/Collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/doc/FAQ" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/doc/FAQ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/File.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/File.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/doc/INSTALL" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/doc/INSTALL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/Key.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/Key.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/Mail.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/Mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/MailingList.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/MailingList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/MailingListUserImport.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/MailingListUserImport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Makefile" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/doc/NEWS" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/doc/NEWS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/NovaPersistentObject.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/NovaPersistentObject.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/OS.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/OS.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Ontime.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Ontime.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Opened.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Opened.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Palette.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Palette.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/PendingActions.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/PendingActions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/PersistentObject.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/PersistentObject.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/Processor.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/Processor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Exceptions/PropertyNotFoundException.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Exceptions/PropertyNotFoundException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/README" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/eZJSCore/Server/Register.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/eZJSCore/Server/Register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/Registration.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/Registration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/RemoteState.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/RemoteState.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Repartition.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Repartition.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/ResendCampaign.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/ResendCampaign.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/SMTP.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/SMTP.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/Sending.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/Sending.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/Sendmail.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/Sendmail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/SiteAccess.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/SiteAccess.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/Stat.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/Stat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Transport.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Transport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/Transport.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/Transport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/User.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Templates/Utils.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Templates/Utils.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Week.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Graphs/Week.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/actions.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/actions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/automated.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/automated.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/bootstrap.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/bootstrap.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/bounce_back.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/bounce_back.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/campaigns.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/campaigns.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions/campaigns.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions/campaigns.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/cleanup_mailing.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/cleanup_mailing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/stats/continue.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/stats/continue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/dashboard.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/extension.xml" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/extension.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/ezinfo.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/ezinfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/datatypes/ezmailingregistration/ezmailingregistrationtype.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/datatypes/ezmailingregistration/ezmailingregistrationtype.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/autoloads/eztemplateautoload.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/autoloads/eztemplateautoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/function_definition.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/function_definition.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/stats/graph.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/stats/graph.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/import.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/import.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions/import.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions/import.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/bin/php/import_user.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/bin/php/import_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/mailinglists.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/mailinglists.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions/mailinglists.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions/mailinglists.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/module.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/bin/php/monitor.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/bin/php/monitor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/pending_actions.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/pending_actions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/stats/read.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/stats/read.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/register.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/actions/register.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/actions/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/registrations.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/registrations.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions/registrations.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions/registrations.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/remote_campaign_state.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/remote_campaign_state.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/bin/php/remove_provider.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/bin/php/remove_provider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/send_mailing.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/cronjobs/send_mailing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/show.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/show.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/bin/php/test.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/bin/php/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/unregister.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/front/unregister.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/users.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions/users.php" afterPath="$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/admin/actions/users.php" />
+    <list default="true" id="72dc757e-abb9-441d-8ea1-7c65bc6bf1de" name="Default" comment="Commit Initial">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGNewsletterBundle.php" afterPath="$PROJECT_DIR$/CGNewsletterBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DependencyInjection/CGNewsletterExtension.php" afterPath="$PROJECT_DIR$/DependencyInjection/CGNewsletterExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mailing.iws" />
@@ -107,69 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="graph.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/stats/graph.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="2" selection-start="248" selection-end="248" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1071">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="read.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/stats/read.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="2" selection-start="241" selection-end="241" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="833">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function_definition.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/function_definition.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="2" selection-start="217" selection-end="217" vertical-scroll-proportion="-6.423077" vertical-offset="3" max-vertical-offset="1581">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/module.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="2" selection-start="217" selection-end="217" vertical-scroll-proportion="-4.576923" vertical-offset="51" max-vertical-offset="2499">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extension.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/extension.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ezinfo.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/ezinfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="271" selection-end="271" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Makefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/Makefile">
           <provider selected="true" editor-type-id="text-editor">
@@ -182,11 +40,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="37" selection-start="200" selection-end="200" vertical-scroll-proportion="0.23943663" vertical-offset="0" max-vertical-offset="816">
+            <state line="8" column="37" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eztemplateautoload.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/autoloads/eztemplateautoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="3" selection-start="6" selection-end="221" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CGNewsletterExtension.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DependencyInjection/CGNewsletterExtension.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1071">
+              <folding>
+                <element signature="e#6#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Configuration.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0037807184" vertical-offset="219" max-vertical-offset="748">
+              <folding>
+                <element signature="e#6#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.rst" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/doc/index.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.fr.xlf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/translations/messages.fr.xlf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CGNewsletterBundle.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGNewsletterBundle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
+              <folding>
+                <element signature="e#6#221#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,10 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Processors/Sending.php" />
-        <option value="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Templates/Utils.php" />
-        <option value="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/File.php" />
-        <option value="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/Sendmail.php" />
         <option value="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/SMTP.php" />
         <option value="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/Transport.php" />
         <option value="$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Transport.php" />
@@ -264,6 +187,10 @@
         <option value="$PROJECT_DIR$/Legacy/extension/ezmailing/ezinfo.php" />
         <option value="$PROJECT_DIR$/Legacy/extension/ezmailing/Makefile" />
         <option value="$PROJECT_DIR$/Legacy/extension/ezmailing/README" />
+        <option value="$PROJECT_DIR$/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/DependencyInjection/CGNewsletterExtension.php" />
+        <option value="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
+        <option value="$PROJECT_DIR$/CGNewsletterBundle.php" />
       </list>
     </option>
   </component>
@@ -328,15 +255,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,23 +273,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mysql" />
+              <option name="myItemId" value="Layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,19 +295,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="settings" />
+              <option name="myItemId" value="Full" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,23 +317,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
+              <option name="myItemId" value="eZFlow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
+              <option name="myItemId" value="Zones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,27 +343,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
+              <option name="myItemId" value="eZFlow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stats" />
+              <option name="myItemId" value="Blocks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -470,27 +369,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
+              <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -504,31 +391,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
+              <option name="myItemId" value="translations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,27 +409,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -576,31 +431,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -614,549 +445,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="standard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="standard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datatypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailingregistration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cronjobs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Transports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Campaign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Transports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Campaign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Standard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Processors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Functions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eZJSCore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exceptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Legacy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezmailing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autoloads" />
+              <option name="myItemId" value="DependencyInjection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1197,6 +486,11 @@
       <created>1412095011196</created>
       <updated>1412095011196</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit Initial">
+      <created>1412159686690</created>
+      <updated>1412159686690</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1212,6 +506,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2572079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1236,60 +531,13 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Commit Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Initial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/Sendmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="230" selection-end="230" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/SMTP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="226" selection-end="226" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Standard/Transport.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="231" selection-end="231" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="3349">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Transports/Campaign/Transport.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="232" selection-end="232" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="3519">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/Audit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="226" selection-end="226" vertical-scroll-proportion="-7.076923" vertical-offset="3" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/AutomatedHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="217" selection-end="217" vertical-scroll-proportion="-6.5" vertical-offset="1" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/Browser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="228" selection-end="228" vertical-scroll-proportion="-7.1538463" vertical-offset="1" max-vertical-offset="2703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/Core/Utils/Mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="2" selection-start="226" selection-end="226" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1377">
@@ -1527,7 +775,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="2" selection-start="248" selection-end="248" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="765">
           <folding>
-            <element signature="e#254#319#0" expanded="true" />
+            <element signature="e#254#319#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1535,14 +783,18 @@
     <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/stats/graph.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="2" selection-start="248" selection-end="248" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1071">
-          <folding />
+          <folding>
+            <element signature="e#254#342#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/modules/mailing/stats/read.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="2" selection-start="241" selection-end="241" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="833">
-          <folding />
+          <folding>
+            <element signature="e#247#310#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1600,8 +852,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="200" selection-end="200" vertical-scroll-proportion="0.23943663" vertical-offset="0" max-vertical-offset="816">
+        <state line="8" column="37" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Legacy/extension/ezmailing/autoloads/eztemplateautoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="6" selection-end="221" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/doc/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/translations/messages.fr.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGNewsletterBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
+          <folding>
+            <element signature="e#6#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DependencyInjection/CGNewsletterExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+          <folding>
+            <element signature="e#6#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0037807184" vertical-offset="219" max-vertical-offset="748">
+          <folding>
+            <element signature="e#6#221#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
