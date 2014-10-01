@@ -9,9 +9,7 @@
 
 class ezmailingInfo {
     static function info() {
-        return array( 'Name'      => 'eZMailing extension',
-                      'Copyright' => '2014 Novactive',
-        );
+        return array( 'Name'      => 'eZMailing extension');
     }
 }
 

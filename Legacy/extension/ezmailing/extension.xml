@@ -2,7 +2,6 @@
 <software>
     <metadata>
         <name>eZMailing extension</name>
-        <copyright>2014 Novactive</copyright>
         <info_url>http://www.novactive.com</info_url>
     </metadata>
     <dependencies>
