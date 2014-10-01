@@ -2,10 +2,14 @@
 /**
  * Check and change the state of a remote mailing
  *
- * @author    //autogen//
- * @copyright //autogen//
- * @license   //autogen//
- * @version   //autogen//
+ * eZMailing extension
+ *
+ * @category  eZpublish
+ * @package   eZpublish.eZMailing
+ * @author    Novactive <ezmailing@novactive.com>
+ * @copyright 2014 Novactive
+ * @link      http://www.novactive.com
+ *
  */
 
 use Novactive\eZPublish\Extension\eZMailing\Core\Processors\RemoteState as RemoteStateProcessor;

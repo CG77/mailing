@@ -1,12 +1,14 @@
 <?php
 /**
  *
- * Created by Sébastien Morel for eZ 47 - Extensions.
- * Aka: Plopix
- * Date: 2013-05-06
- * Time: 10:25
+ * eZMailing extension
  *
- * Copyright ${PROJECT_AUTHOR} 2013
+ * @category  eZpublish
+ * @package   eZpublish.eZMailing
+ * @author    Novactive <ezmailing@novactive.com>
+ * @copyright 2014 Novactive
+ * @link      http://www.novactive.com
+ *
  */
 
 namespace Novactive\eZPublish\Extension\eZMailing\Core\Processors;

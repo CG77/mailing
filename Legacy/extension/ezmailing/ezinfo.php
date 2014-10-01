@@ -9,11 +9,9 @@
 
 class ezmailingInfo {
     static function info() {
-        return array( 'Name'      => 'eZ Mailing',
-                      'Version'   => '//autogen//',
-                      'Copyright' => '//autogen//',
-                      'License'   => '//autogen//',
-                      'Info'      => 'http://ez.no/market/eZ-Mailing' );
+        return array( 'Name'      => 'eZMailing extension',
+                      'Copyright' => '2014 Novactive',
+        );
     }
 }
 
